@@ -34,3 +34,12 @@ Read this file first.
 - TJJ: `projects/TJJ.md`
 - SMART_HOME_IOT: `projects/SMART_HOME_IOT.md`
 - SAAS_IDEAS: `projects/SAAS_IDEAS.md`
+
+## How ChatGPT should use this memory
+1. Read this file first.
+2. Read only the relevant project file.
+3. Do not load all files unless necessary.
+4. Use public repo as safe context only.
+5. If details are missing, ask Abu Muhammad to have Cursor summarize from the private repo.
+6. Never ask Abu Muhammad to publish secrets.
+7. For long-term updates, instruct Cursor to update the private repo.
