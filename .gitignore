@@ -1,0 +1,12 @@
+.env
+*.key
+*.pem
+secrets/
+private/
+private_redacted/
+archive/
+OLD_MEMORY_RAW.md
+*_SECRET*
+*_TOKEN*
+*_PASSWORD*
+*.log
