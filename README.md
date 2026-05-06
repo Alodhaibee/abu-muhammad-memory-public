@@ -1,5 +1,8 @@
 # Abu Muhammad Public Memory Repository
 
+Last updated: 2026-05-06
+Status: Active
+
 This is the public-safe memory index for Abu Muhammad.
 
 It is intentionally sanitized and designed so ChatGPT can read it directly.

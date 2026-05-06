@@ -1,5 +1,8 @@
 # Memory Maintenance Policy
 
+Last updated: 2026-05-06
+Status: Active
+
 ## Split model
 - Private repository is maintained by Cursor as full memory context.
 - Public repository is curated for ChatGPT direct reading.

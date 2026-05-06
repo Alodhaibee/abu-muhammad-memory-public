@@ -1,5 +1,8 @@
 # Active Projects (Public Overview)
 
+Last updated: 2026-05-06
+Status: Active
+
 This file provides routing summaries only.
 
 - LABIB: product and workflow context. See `projects/LABIB.md`.

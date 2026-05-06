@@ -1,5 +1,8 @@
 # MASTER MEMORY INDEX (PUBLIC SAFE)
 
+Last updated: 2026-05-06
+Status: Active
+
 Read this file first.
 
 ## Assistant Rules (Mandatory)
@@ -43,3 +46,15 @@ Read this file first.
 5. If details are missing, ask Abu Muhammad to have Cursor summarize from the private repo.
 6. Never ask Abu Muhammad to publish secrets.
 7. For long-term updates, instruct Cursor to update the private repo.
+
+## Compatible AI Assistants
+- ChatGPT: lightweight index, public-safe reader, and strategic assistant.
+- Claude: technical session advisor when Abu Muhammad uses it.
+- Cursor: private memory librarian and code executor.
+- Future agents: must follow this index and all safety rules.
+
+## Recommended first-read order
+1. `00_MASTER_MEMORY_INDEX.md`
+2. `STATUS_DASHBOARD.md`
+3. relevant `projects/*.md`
+4. `references/` only if needed
