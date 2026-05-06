@@ -12,6 +12,8 @@
 - Raspberry Pi
 - Obsidian (knowledge notes and linked thinking)
 - MemPalace (memory reinforcement workflow support)
+- Graphify (high-level knowledge graph visualization candidate)
+- gbrain (high-level graph-assisted knowledge workflow candidate)
 
 ## Safety boundary
 This file contains tool preferences only and intentionally excludes access credentials, system addresses, or operational secrets.

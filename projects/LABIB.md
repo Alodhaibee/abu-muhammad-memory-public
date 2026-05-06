@@ -26,5 +26,5 @@ Ask for the latest safe summary before giving detailed advice.
 ## Memory and knowledge direction (public-safe)
 - LABIB memory design should consider second-brain and knowledge graph tooling as potential support layers.
 - Obsidian and MemPalace are included in the current evaluation set for notes and memory workflow design.
-- Graph-oriented tools can be considered for safe high-level visualization and knowledge mapping where useful.
+- Graphify and gbrain are also part of the current high-level evaluation set for knowledge graph and visualization support.
 - Final adoption remains under evaluation.
