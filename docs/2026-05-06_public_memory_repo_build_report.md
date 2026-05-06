@@ -4,17 +4,18 @@
 A separate public-safe memory repository for ChatGPT direct reading.
 
 ## Source used (private side)
-- `D:/MyPrograming/abu-muhammad-memory/README.md`
-- `D:/MyPrograming/abu-muhammad-memory/00_MASTER_MEMORY_INDEX.md`
-- `D:/MyPrograming/abu-muhammad-memory/01_GLOBAL_RULES.md`
-- `D:/MyPrograming/abu-muhammad-memory/02_STYLE_AND_RESPONSE_RULES.md`
-- `D:/MyPrograming/abu-muhammad-memory/03_TOOLS_AND_ENVIRONMENT.md`
-- `D:/MyPrograming/abu-muhammad-memory/04_ACTIVE_PROJECTS.md`
-- `D:/MyPrograming/abu-muhammad-memory/05_SECURITY_AND_PRIVACY_RULES.md`
-- `D:/MyPrograming/abu-muhammad-memory/06_MEMORY_MAINTENANCE_POLICY.md`
-- `D:/MyPrograming/abu-muhammad-memory/projects/` (high-level names only)
-- `D:/MyPrograming/abu-muhammad-memory/prompts/` (safe style guidance only)
-- `D:/MyPrograming/abu-muhammad-memory/references/` (safe preferences only)
+- Private memory repository root files:
+  - `README.md`
+  - `00_MASTER_MEMORY_INDEX.md`
+  - `01_GLOBAL_RULES.md`
+  - `02_STYLE_AND_RESPONSE_RULES.md`
+  - `03_TOOLS_AND_ENVIRONMENT.md`
+  - `04_ACTIVE_PROJECTS.md`
+  - `05_SECURITY_AND_PRIVACY_RULES.md`
+  - `06_MEMORY_MAINTENANCE_POLICY.md`
+- Private memory repository `projects/` high-level summaries only.
+- Private memory repository `prompts/` safe style guidance only.
+- Private memory repository `references/` safe preferences only.
 
 ## Intentionally excluded
 - `archive/`
