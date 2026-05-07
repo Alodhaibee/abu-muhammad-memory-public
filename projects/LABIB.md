@@ -37,3 +37,14 @@ Ask for the latest safe summary before giving detailed advice.
 - Telegram status: first five Telegram tracks are completed at a stable managed-service stage.
 - Current track: Telegram Track 06 - Safe Command Bridge.
 - Remaining roadmap: Safe Command Bridge -> final Telegram track -> operator manual -> v1 freeze.
+
+## Shared Brain architecture decision (public-safe)
+- Decision adopted: file-based Shared Brain memory architecture for LABIB.
+- Operating roles:
+  - ChatGPT: lightweight index and public-safe reader.
+  - Claude: technical session advisor when used.
+  - Cursor: private long-term memory maintainer and execution agent.
+- Memory approach:
+  - Use divided, human-readable Markdown memory files.
+  - Keep decisions and active context in dedicated project memory files.
+  - Avoid single-file memory architecture and avoid opaque memory layers.
