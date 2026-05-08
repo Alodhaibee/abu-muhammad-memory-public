@@ -1,7 +1,12 @@
 # CHANGELOG
 
-Last updated: 2026-05-06
+Last updated: 2026-05-08
 Status: Active
+
+## 2026-05-08
+- LABIB public-safe memory updated to record Telegram Track 06 completion (Safe Command Bridge).
+- Active projects overview refreshed with a clear status table.
+- Memory index wording updated from ChatGPT-specific guidance to AI assistants guidance.
 
 ## 2026-05-06
 - External memory system established with clear private/public separation.

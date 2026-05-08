@@ -38,7 +38,7 @@ Read this file first.
 - SMART_HOME_IOT: `projects/SMART_HOME_IOT.md`
 - SAAS_IDEAS: `projects/SAAS_IDEAS.md`
 
-## How ChatGPT should use this memory
+## How AI assistants should use this memory
 1. Read this file first.
 2. Read only the relevant project file.
 3. Do not load all files unless necessary.

@@ -1,19 +1,23 @@
 # Active Projects (Public Overview)
 
-Last updated: 2026-05-06
+Last updated: 2026-05-08
 Status: Active
 
-This file provides routing summaries only.
+This file provides routing summaries with current public-safe status only.
 
-- LABIB: product and workflow context. See `projects/LABIB.md`.
-- OZZY_OPENCLAW: automation and agent orchestration. See `projects/OZZY_OPENCLAW.md`.
-- SECOND_BRAIN: memory architecture and organization. See `projects/SECOND_BRAIN.md`.
-- UQU_OFFICE: office-related workflows and planning. See `projects/UQU_OFFICE.md`.
-- SITE_SCOUT: website analysis and extraction workflows. See `projects/SITE_SCOUT.md`.
-- TRADING_AND_PINE: trading knowledge and script direction. See `projects/TRADING_AND_PINE.md`.
-- N8N: automation workflow design. See `projects/N8N.md`.
-- MOLYRA: project-specific planning memory. See `projects/MOLYRA.md`.
-- AOS_EXEC: execution planning context. See `projects/AOS_EXEC.md`.
-- TJJ: project summary context. See `projects/TJJ.md`.
-- SMART_HOME_IOT: smart home and IoT direction. See `projects/SMART_HOME_IOT.md`.
-- SAAS_IDEAS: idea bank and opportunity map. See `projects/SAAS_IDEAS.md`.
+## Current public-safe status table
+
+| Project | Status | Description | File |
+|---------|--------|-------------|------|
+| LABIB | Active | Personal AI agent on Raspberry Pi; Telegram Track 06 completed; next Track 07 | `projects/LABIB.md` |
+| OZZY_OPENCLAW | Active | Automation and agent orchestration | `projects/OZZY_OPENCLAW.md` |
+| SECOND_BRAIN | Active | Memory architecture and organization | `projects/SECOND_BRAIN.md` |
+| TRADING_AND_PINE | Active | Trading knowledge and Pine script direction | `projects/TRADING_AND_PINE.md` |
+| N8N | Active | Automation workflow design | `projects/N8N.md` |
+| UQU_OFFICE | Planned | Office-related workflows and planning | `projects/UQU_OFFICE.md` |
+| SITE_SCOUT | Planned | Website analysis and extraction workflows | `projects/SITE_SCOUT.md` |
+| MOLYRA | Planned | Project-specific planning memory | `projects/MOLYRA.md` |
+| AOS_EXEC | Planned | Execution planning context | `projects/AOS_EXEC.md` |
+| TJJ | Planned | Project summary context | `projects/TJJ.md` |
+| SMART_HOME_IOT | Planned | Smart home and IoT direction | `projects/SMART_HOME_IOT.md` |
+| SAAS_IDEAS | Idea Bank | Opportunity map and SaaS ideas | `projects/SAAS_IDEAS.md` |
