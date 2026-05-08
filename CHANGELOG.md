@@ -7,6 +7,9 @@ Status: Active
 - LABIB public-safe memory updated to record Telegram Track 06 completion (Safe Command Bridge).
 - Active projects overview refreshed with a clear status table.
 - Memory index wording updated from ChatGPT-specific guidance to AI assistants guidance.
+- Added Track Start Rule for Labib.
+- Defined Telegram Track 07 as Operational Validation & Pre-Manual Hardening.
+- Confirmed that Track 07 is documentation/validation oriented and does not authorize Core or Router changes.
 
 ## 2026-05-06
 - External memory system established with clear private/public separation.

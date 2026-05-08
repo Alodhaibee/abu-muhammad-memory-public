@@ -88,3 +88,34 @@ Ask for the latest safe summary before giving detailed advice.
   - `/status`
   - `/recent`
   - `/search Telegram`
+
+### Track Start Rule
+
+Before starting any new Labib Track, if the track goal, scope, expected outputs, and constraints are not explicitly documented, execution must stop.
+
+The assistant must first define the track from current memory, propose a short plan, and ask Abu Muhammad to approve documenting it.
+
+No Cursor execution prompt should be prepared until the track definition is recorded in memory.
+
+This rule is especially important for Telegram Tracks and any work near Core or Router boundaries.
+
+### Telegram Track 07 — Operational Validation & Pre-Manual Hardening
+
+Goal:
+Validate the Telegram layer after Track 06 and prepare it for the Operator Manual and Final Freeze.
+
+Scope:
+Review existing Telegram command behavior, Arabic/English command usability, operator-facing clarity, and documentation readiness.
+
+Constraints:
+- No Core modification.
+- No Router modification unless explicitly approved.
+- No new Alias Engine.
+- No new Status Subsystem.
+- Missing commands are documented as deferred, not implemented automatically.
+
+Expected outputs:
+- Final command acceptance checklist.
+- Command behavior table.
+- Operator notes for the future manual.
+- Deferred items list if needed.
