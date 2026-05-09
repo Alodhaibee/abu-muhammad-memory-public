@@ -72,3 +72,11 @@ Never use unguarded push commands when a guarded one-liner or guarded script can
 6. Stop on BLOCKED
 If any prerequisite is missing, stop immediately and print a clear BLOCKED reason.
 Do not continue with partial push, remote changes, sync, or extra fixes.
+
+## Cursor Execution Report Rule
+- After every prompt, Cursor must create or overwrite: `D:\MyPrograming\What_I_Have_Done.md`.
+- This file is a workspace-level temporary audit report and can be overwritten each run.
+- Do not create `What_I_Have_Done.md` inside repository roots unless explicitly requested.
+- Do not commit or push `What_I_Have_Done.md` unless explicitly requested.
+- The report must document commands, files touched, exact paths, searches/queries, git status, commits, push verification, external/network access, blocked actions, deviations, and final status.
+- Purpose: provide full traceability so ChatGPT and Abu Muhammad can verify exactly what Cursor did and detect mistakes or unauthorized actions.
