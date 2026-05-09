@@ -1,6 +1,6 @@
 # Active Projects (Public Overview)
 
-Last updated: 2026-05-08
+Last updated: 2026-05-09
 Status: Active
 
 This file provides routing summaries with current public-safe status only.
@@ -9,7 +9,7 @@ This file provides routing summaries with current public-safe status only.
 
 | Project | Status | Description | File |
 |---------|--------|-------------|------|
-| LABIB | Active | Personal AI agent on Raspberry Pi; Telegram Track 06 completed; next Track 07 | `projects/LABIB.md` |
+| LABIB | Active | Personal AI agent on Raspberry Pi; Telegram Track 07 completed; next Operator Manual | `projects/LABIB.md` |
 | OZZY_OPENCLAW | Active | Automation and agent orchestration | `projects/OZZY_OPENCLAW.md` |
 | SECOND_BRAIN | Active | Memory architecture and organization | `projects/SECOND_BRAIN.md` |
 | TRADING_AND_PINE | Active | Trading knowledge and Pine script direction | `projects/TRADING_AND_PINE.md` |

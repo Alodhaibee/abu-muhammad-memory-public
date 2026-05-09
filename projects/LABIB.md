@@ -1,6 +1,6 @@
 # LABIB (Public Safe)
 
-Last updated: 2026-05-08
+Last updated: 2026-05-09
 Status: Active
 
 ## Purpose
@@ -34,11 +34,11 @@ Ask for the latest safe summary before giving detailed advice.
 
 ## Public-safe status block
 - Core status: LABIB Core v1 has reached a frozen/stable stage.
-- Telegram status: Telegram Track 01-06 are completed.
+- Telegram status: Telegram Track 01-07 are completed.
 - Track 06 status: Completed (2026-05-08).
+- Track 07 status: Completed (closeout documented).
 - Track 06 scope: Telegram-side mapping only (Safe Command Bridge).
-- Next track: Telegram Track 07.
-- Remaining roadmap: Track 07 -> Operator Manual -> Final Freeze.
+- Remaining roadmap: Operator Manual -> Final Freeze.
 
 ## Shared Brain architecture decision (public-safe)
 - Decision adopted: file-based Shared Brain memory architecture for LABIB.
@@ -130,3 +130,39 @@ Date: 2026-05-09
 - No automatic sync was performed.
 - No Core or Router changes were made.
 - Runtime/staging drift remains deferred until an explicit source-of-truth or sync decision is approved.
+
+## Telegram Track 07 — Operator Notes / Closeout
+
+Status: Completed.
+
+Accepted baseline:
+- Track 06 validation is accepted.
+- Track 07 validation is accepted.
+- Public validation status has already been pushed and verified.
+- No further validation loop is required unless a new concrete failure appears.
+
+Operator notes:
+- Telegram short commands are usable in Arabic and English.
+- Track 06 Safe Command Bridge remains the accepted command-mapping layer.
+- Commands must continue mapping only to existing Labib router behavior.
+- Missing or future commands are deferred and must not be implemented automatically.
+- Operator Manual should explain commands by user intent, not by internal code structure.
+- Any future change near Core or Router requires explicit approval before implementation.
+- If Telegram behavior breaks later, investigate from the new failure signal only; do not reopen accepted Track 06/07 validation history.
+
+Accepted command families:
+- Command list
+- Ideas / latest ideas
+- Memory status
+- Recent messages summary
+- Memory search
+
+Deferred-by-rule:
+- New alias engine
+- New status subsystem
+- Any command not already supported by the existing router
+- Any Core or Router modification not explicitly approved
+
+Closeout:
+Telegram Track 07 is closed as completed.
+Next phase: Operator Manual preparation, then Final Freeze.
