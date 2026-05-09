@@ -119,3 +119,14 @@ Expected outputs:
 - Command behavior table.
 - Operator notes for the future manual.
 - Deferred items list if needed.
+
+## Track 07 validation update (public-safe)
+
+Date: 2026-05-09
+
+- Telegram Track 07 operational command validation passed by operator confirmation.
+- Track 06 short command mappings are confirmed present in Raspberry Pi runtime.
+- Windows staging copy is known to be stale and does not currently reflect Track 06 mappings.
+- No automatic sync was performed.
+- No Core or Router changes were made.
+- Runtime/staging drift remains deferred until an explicit source-of-truth or sync decision is approved.
