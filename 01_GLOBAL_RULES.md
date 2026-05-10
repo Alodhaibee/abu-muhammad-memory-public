@@ -73,10 +73,15 @@ Never use unguarded push commands when a guarded one-liner or guarded script can
 If any prerequisite is missing, stop immediately and print a clear BLOCKED reason.
 Do not continue with partial push, remote changes, sync, or extra fixes.
 
-## Cursor Execution Report Rule
-- After every prompt, Cursor must create or overwrite: `D:\MyPrograming\What_I_Have_Done.md`.
-- This file is a workspace-level temporary audit report and can be overwritten each run.
-- Do not create `What_I_Have_Done.md` inside repository roots unless explicitly requested.
-- Do not commit or push `What_I_Have_Done.md` unless explicitly requested.
-- The report must document commands, files touched, exact paths, searches/queries, git status, commits, push verification, external/network access, blocked actions, deviations, and final status.
-- Purpose: provide full traceability so ChatGPT and Abu Muhammad can verify exactly what Cursor did and detect mistakes or unauthorized actions.
+## Naming approval (durable artifacts)
+- Before naming any **new** durable folder, project, tool, skill, or important file, obtain **explicit user approval** for the chosen name.
+- **Exception:** names **derived directly** from an already-approved name **without changing meaning** may be reused without re-asking.
+- Do **not** use **`AbuMuhammad`** as a **default prefix** for neutral tools or skills; prefer clean names such as **CodexSkills**, **Codex Workflow**, **Project Control Center**.
+
+## Workspace execution report (`What_I_Have_Done.md`)
+- After each batch of work, executors (**Cursor**, **Claude Code**, **Codex**, and similar) must write an audit report at **`D:\MyPrograming\What_I_Have_Done.md`** (workspace-level, **outside** this public repo unless explicitly requested otherwise).
+- **Overwrite** the file each run so it reflects **only the latest operation** (**never append by default**), unless the user explicitly defines a different reporting scheme.
+- Do **not** create `What_I_Have_Done.md` inside repository roots unless explicitly requested.
+- Do **not** commit or push `What_I_Have_Done.md` unless explicitly requested.
+- When applicable, the report should include: workspace path; goal; files inspected / created / modified / deleted; folders created or deleted; files copied or moved; commands executed; git status before/after; safety scan result; external/network access used (Yes/No); other projects touched (Yes/No); deviations; errors or blocked items; final status.
+- Purpose: full traceability so ChatGPT and the user can verify what each executor did and catch mistakes or unauthorized actions.

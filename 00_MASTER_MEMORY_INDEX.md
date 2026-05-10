@@ -1,6 +1,6 @@
 # MASTER MEMORY INDEX (PUBLIC SAFE)
 
-Last updated: 2026-05-06
+Last updated: 2026-05-10
 Status: Active
 
 Read this file first.
@@ -26,6 +26,8 @@ Read this file first.
 
 ## Project routing
 - LABIB: `projects/LABIB.md`
+- Abu Muhammad Project Control Center: `projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md`
+- CodexSkills: `projects/CODEX_SKILLS.md`
 - OZZY_OPENCLAW: `projects/OZZY_OPENCLAW.md`
 - SECOND_BRAIN: `projects/SECOND_BRAIN.md`
 - UQU_OFFICE: `projects/UQU_OFFICE.md`
@@ -38,6 +40,9 @@ Read this file first.
 - SMART_HOME_IOT: `projects/SMART_HOME_IOT.md`
 - SAAS_IDEAS: `projects/SAAS_IDEAS.md`
 
+## Codex / skills / MCP routing
+When the task involves **Codex**, local **skills** (`AGENTS.md`, `skills/*/SKILL.md`), or **MCP** wiring plans, read **`projects/CODEX_SKILLS.md`** after this index. The canonical workstation folder for the pack is **`D:\MyPrograming\CodexSkills`** (local-only; not stored in this repository).
+
 ## How AI assistants should use this memory
 1. Read this file first.
 2. Read only the relevant project file.
@@ -48,9 +53,10 @@ Read this file first.
 7. For long-term updates, instruct Cursor to update the private repo.
 
 ## Compatible AI Assistants
-- ChatGPT: lightweight index, public-safe reader, and strategic assistant.
-- Claude: technical session advisor when Abu Muhammad uses it.
-- Cursor: private memory librarian and code executor.
+- ChatGPT: lightweight index, public-safe reader; planning, review, prompt shaping, decisions, reading execution reports.
+- Claude / Claude Code: technical session advisor and deeper coding executor when used.
+- Cursor: private memory librarian and primary IDE-visible code executor.
+- Codex: terminal-oriented executor using **`D:\MyPrograming\CodexSkills`** (`AGENTS.md` + skills); future MCP-ready; always scoped safety rules.
 - Future agents: must follow this index and all safety rules.
 
 ## Recommended first-read order

@@ -1,6 +1,6 @@
 # Active Projects (Public Overview)
 
-Last updated: 2026-05-09
+Last updated: 2026-05-10
 Status: Active
 
 This file provides routing summaries with current public-safe status only.
@@ -10,6 +10,8 @@ This file provides routing summaries with current public-safe status only.
 | Project | Status | Description | File |
 |---------|--------|-------------|------|
 | LABIB | Active | Personal AI agent on Raspberry Pi; Telegram Track 07 completed; next Operator Manual | `projects/LABIB.md` |
+| CodexSkills | Active | Permanent local Codex skills pack at `D:\MyPrograming\CodexSkills` (`AGENTS.md` + skills `codex_workflow`, `memory_github_reader`, `safe_project_executor`); public-safe orientation in `projects/CODEX_SKILLS.md` | `projects/CODEX_SKILLS.md` |
+| Abu Muhammad Project Control Center | Active supporting tool | Python GUI dashboard لإدارة مشاريع أبو محمد داخل `D:\MyPrograming`: قائمة مشاريع، حالة Git، فتح Folder/Cursor/VS Code/PowerShell، عرض `What_I_Have_Done.md`، ملاحظات في `data\project_notes.json`، `run.bat` / `run_debug.bat` | `projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md` |
 | OZZY_OPENCLAW | Active | Automation and agent orchestration | `projects/OZZY_OPENCLAW.md` |
 | SECOND_BRAIN | Active | Memory architecture and organization | `projects/SECOND_BRAIN.md` |
 | TRADING_AND_PINE | Active | Trading knowledge and Pine script direction | `projects/TRADING_AND_PINE.md` |

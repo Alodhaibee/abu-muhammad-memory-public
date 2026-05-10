@@ -1,7 +1,16 @@
 # CHANGELOG
 
-Last updated: 2026-05-08
+Last updated: 2026-05-10
 Status: Active
+
+## 2026-05-10
+- Adopted **CodexSkills** as the permanent local Codex pack (`D:\MyPrograming\CodexSkills`); documented in **`projects/CODEX_SKILLS.md`** and indexed from **`00_MASTER_MEMORY_INDEX.md`**.
+- Recorded successful **Codex CLI** permission-style test in the former **`test_codex`** sandbox and subsequent **manual removal** of that folder (no longer canonical).
+- Captured current skills: **`codex_workflow`**, **`memory_github_reader`**, **`safe_project_executor`**.
+- Documented ecosystem roles (ChatGPT / Codex / Cursor / Claude Code / Project Control Center / GitHub Memory) in **`03_TOOLS_AND_ENVIRONMENT.md`**.
+- Locked in **naming approval** rules and **no default `AbuMuhammad` prefix** for neutral artifacts in **`01_GLOBAL_RULES.md`**.
+- Locked in **`What_I_Have_Done.md` overwrite-only-per-run** audit reporting baseline in **`01_GLOBAL_RULES.md`** (applies across executors unless user overrides).
+- Refreshed **`04_ACTIVE_PROJECTS.md`** with **CodexSkills** and confirmed **Abu Muhammad Project Control Center** as an active supporting tool.
 
 ## 2026-05-08
 - LABIB public-safe memory updated to record Telegram Track 06 completion (Safe Command Bridge).
