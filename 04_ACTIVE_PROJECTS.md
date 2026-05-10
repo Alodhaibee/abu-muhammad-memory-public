@@ -9,7 +9,7 @@ This file provides routing summaries with current public-safe status only.
 
 | Project | Status | Description | File |
 |---------|--------|-------------|------|
-| LABIB | Active | Personal AI agent on Raspberry Pi; Telegram Track 07 completed; next Operator Manual | `projects/LABIB.md` |
+| LABIB | Active / public-safe frozen baseline | Personal AI agent on Raspberry Pi; Telegram Track 07 completed; Operator Manual in **`projects/LABIB_OPERATOR_MANUAL.md`** (document commit **`f08ca383ff055d08b442a9f007b165b2643b81b6`**); **Final Freeze Documentation completed** — public-safe documentary milestone only (not new runtime work) | `projects/LABIB.md` |
 | CodexSkills | Active / officially adopted | **Codex** terminal executor: local pack `D:\MyPrograming\CodexSkills`; **private** mirror `https://github.com/Alodhaibee/CodexSkills` (baseline commit `44811e6f5e88876037423f2ab89ed4077b1cfc27`, `PUSH_VERIFIED` when recorded); skills `codex_workflow`, `memory_github_reader`, `safe_project_executor`; full rules in `projects/CODEX_SKILLS.md` | `projects/CODEX_SKILLS.md` |
 | Abu Muhammad Project Control Center | Active supporting tool | Python GUI dashboard لإدارة مشاريع أبو محمد داخل `D:\MyPrograming`: قائمة مشاريع، حالة Git، فتح Folder/Cursor/VS Code/PowerShell، عرض `What_I_Have_Done.md`، ملاحظات في `data\project_notes.json`، `run.bat` / `run_debug.bat` | `projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md` |
 | OZZY_OPENCLAW | Active | Automation and agent orchestration | `projects/OZZY_OPENCLAW.md` |

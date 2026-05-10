@@ -4,6 +4,7 @@ Last updated: 2026-05-10
 Status: Active
 
 ## 2026-05-10
+- **LABIB — Operator Manual & Final Freeze Documentation:** Adopted **Labib Operator Manual** at **`projects/LABIB_OPERATOR_MANUAL.md`** as the **public-safe operator baseline**; manual pinned at git commit **`f08ca383ff055d08b442a9f007b165b2643b81b6`**. **Final Freeze Documentation** closed as a **public-safe documentary milestone only** (no new runtime code implied); **`projects/LABIB.md`** and **`04_ACTIVE_PROJECTS.md`** (LABIB row) updated accordingly.
 - **Formal adoption:** **Codex** recorded as an **official bounded terminal executor** (CLI installed/run/tested); full operating rules in **`projects/CODEX_SKILLS.md`** and summary in **`01_GLOBAL_RULES.md`** / **`03_TOOLS_AND_ENVIRONMENT.md`** / **`04_ACTIVE_PROJECTS.md`**.
 - **CodexSkills private mirror:** `https://github.com/Alodhaibee/CodexSkills` — baseline commit **`44811e6f5e88876037423f2ab89ed4077b1cfc27`**, state **`PUSH_VERIFIED`** when recorded; repo **Private**.
 - Adopted **CodexSkills** as the permanent local Codex pack (`D:\MyPrograming\CodexSkills`); documented in **`projects/CODEX_SKILLS.md`** and indexed from **`00_MASTER_MEMORY_INDEX.md`**.

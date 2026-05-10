@@ -1,13 +1,13 @@
 # LABIB (Public Safe)
 
-Last updated: 2026-05-09
+Last updated: 2026-05-10
 Status: Active
 
 ## Purpose
 High-level memory for LABIB direction and decisions.
 
 ## Current high-level status
-Active memory slot prepared for ongoing project updates.
+Operator Manual preparation is **completed** (see **Final Freeze Documentation** below). Public-safe baseline for Telegram operator-facing usage is recorded in `projects/LABIB_OPERATOR_MANUAL.md`.
 
 ## Safe working rules
 - Keep only goals, priorities, and non-sensitive summaries.
@@ -38,7 +38,16 @@ Ask for the latest safe summary before giving detailed advice.
 - Track 06 status: Completed (2026-05-08).
 - Track 07 status: Completed (closeout documented).
 - Track 06 scope: Telegram-side mapping only (Safe Command Bridge).
-- Remaining roadmap: Operator Manual -> Final Freeze.
+- Operator Manual preparation: **Completed** (manual path: `projects/LABIB_OPERATOR_MANUAL.md`).
+- Final Freeze Documentation (public-safe): **Completed** — documentary baseline only; **does not** authorize new runtime code, Core/Router changes, or implementation of deferred gaps listed in the Operator Manual.
+
+## Final Freeze Documentation (public-safe)
+
+- **Purpose:** Close the public-safe documentation milestone after Operator Manual preparation.
+- **Operator Manual reference:** `projects/LABIB_OPERATOR_MANUAL.md`
+- **Known Operator Manual git commit (public record):** `f08ca383ff055d08b442a9f007b165b2643b81b6`
+- **Scope boundary:** This freeze is **documentation-only** for **public memory**. It does **not** mean new executable work was performed in this repository beyond Markdown updates, and it does **not** replace private operational records.
+- **Deferred items:** Gaps explicitly listed under the Operator Manual deferred section remain **documented only** and are **not** treated as implemented unless a future approved track says otherwise.
 
 ## Shared Brain architecture decision (public-safe)
 - Decision adopted: file-based Shared Brain memory architecture for LABIB.
@@ -165,4 +174,4 @@ Deferred-by-rule:
 
 Closeout:
 Telegram Track 07 is closed as completed.
-Next phase: Operator Manual preparation, then Final Freeze.
+Follow-on (public-safe): Operator Manual preparation completed; Final Freeze Documentation completed (see section above).
