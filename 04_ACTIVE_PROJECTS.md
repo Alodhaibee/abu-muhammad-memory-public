@@ -1,6 +1,6 @@
 # Active Projects (Public Overview)
 
-Last updated: 2026-05-10
+Last updated: 2026-05-10 (Codex official adoption recorded)
 Status: Active
 
 This file provides routing summaries with current public-safe status only.
@@ -10,7 +10,7 @@ This file provides routing summaries with current public-safe status only.
 | Project | Status | Description | File |
 |---------|--------|-------------|------|
 | LABIB | Active | Personal AI agent on Raspberry Pi; Telegram Track 07 completed; next Operator Manual | `projects/LABIB.md` |
-| CodexSkills | Active | Permanent local Codex skills pack at `D:\MyPrograming\CodexSkills` (`AGENTS.md` + skills `codex_workflow`, `memory_github_reader`, `safe_project_executor`); public-safe orientation in `projects/CODEX_SKILLS.md` | `projects/CODEX_SKILLS.md` |
+| CodexSkills | Active / officially adopted | **Codex** terminal executor: local pack `D:\MyPrograming\CodexSkills`; **private** mirror `https://github.com/Alodhaibee/CodexSkills` (baseline commit `44811e6f5e88876037423f2ab89ed4077b1cfc27`, `PUSH_VERIFIED` when recorded); skills `codex_workflow`, `memory_github_reader`, `safe_project_executor`; full rules in `projects/CODEX_SKILLS.md` | `projects/CODEX_SKILLS.md` |
 | Abu Muhammad Project Control Center | Active supporting tool | Python GUI dashboard لإدارة مشاريع أبو محمد داخل `D:\MyPrograming`: قائمة مشاريع، حالة Git، فتح Folder/Cursor/VS Code/PowerShell، عرض `What_I_Have_Done.md`، ملاحظات في `data\project_notes.json`، `run.bat` / `run_debug.bat` | `projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md` |
 | OZZY_OPENCLAW | Active | Automation and agent orchestration | `projects/OZZY_OPENCLAW.md` |
 | SECOND_BRAIN | Active | Memory architecture and organization | `projects/SECOND_BRAIN.md` |

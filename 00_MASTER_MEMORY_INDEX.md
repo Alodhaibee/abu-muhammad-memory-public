@@ -41,7 +41,7 @@ Read this file first.
 - SAAS_IDEAS: `projects/SAAS_IDEAS.md`
 
 ## Codex / skills / MCP routing
-When the task involves **Codex**, local **skills** (`AGENTS.md`, `skills/*/SKILL.md`), or **MCP** wiring plans, read **`projects/CODEX_SKILLS.md`** after this index. The canonical workstation folder for the pack is **`D:\MyPrograming\CodexSkills`** (local-only; not stored in this repository).
+When the task involves **Codex**, local **skills** (`AGENTS.md`, `skills/*/SKILL.md`), or **MCP** wiring plans, read **`projects/CODEX_SKILLS.md`** after this index. **Codex is officially adopted** as a bounded executor. Canonical workstation folder: **`D:\MyPrograming\CodexSkills`**. Private GitHub mirror for the skill pack: **`https://github.com/Alodhaibee/CodexSkills`** (repository **Private**; file bodies not mirrored in this public repo).
 
 ## How AI assistants should use this memory
 1. Read this file first.

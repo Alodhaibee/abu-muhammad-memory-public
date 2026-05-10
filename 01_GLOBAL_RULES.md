@@ -73,6 +73,13 @@ Never use unguarded push commands when a guarded one-liner or guarded script can
 If any prerequisite is missing, stop immediately and print a clear BLOCKED reason.
 Do not continue with partial push, remote changes, sync, or extra fixes.
 
+## Codex — officially adopted executor (summary)
+- **Codex** is an **official, bounded terminal executor** in the workflow system (CLI installed, exercised, and governed).
+- Authoritative **local** rules + skills: **`D:\MyPrograming\CodexSkills`**.
+- **Private** GitHub mirror for the skill pack: **`https://github.com/Alodhaibee/CodexSkills`** (details + approved operating rules in **`projects/CODEX_SKILLS.md`**).
+- Codex must follow the same **overwrite-only** workspace report rule as other executors (`What_I_Have_Done.md`), and must **not** delete/move/rename, commit/push, use network, or install packages **without explicit instruction**.
+- **“أبو محمد”** as vocative only; **`AbuMuhammad`** not a default prefix for new neutral artifacts (see naming rules below).
+
 ## Naming approval (durable artifacts)
 - Before naming any **new** durable folder, project, tool, skill, or important file, obtain **explicit user approval** for the chosen name.
 - **Exception:** names **derived directly** from an already-approved name **without changing meaning** may be reused without re-asking.
