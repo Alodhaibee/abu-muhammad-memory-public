@@ -24,6 +24,13 @@
 - Per-agent audit reports live only under **`D:\MyPrograming\What_I_Have_Done\`**. The legacy single file **`D:\MyPrograming\What_I_Have_Done.md`** must **not** be used for **new** agent reports.
 - **Commit/push** remains **explicitly authorized in the current prompt only**, must be **guarded** and **verified** when allowed, and is further specified in **`AGENTS_PROTOCOL.md`**.
 
+### Tool-local startup pointers (optional but recommended)
+
+- Agents and tools should use **permanent local** startup or settings instructions **where the tool supports them**, pointing first to **`AGENTS_PROTOCOL.md`** (see **`AGENTS_PROTOCOL.md`** — **Tool-Local Startup Instructions**).
+- Those local settings are **only pointers** to the central protocol, **not** replacements for reading it.
+- **`AGENTS_PROTOCOL.md`** remains the **source of truth**.
+- Local startup settings do **not** authorize commit/push or **expanded scope** beyond what the current prompt and protocol allow.
+
 ## Accepted Baseline and Conditional Execution Rules
 
 1. Accepted Baseline Rule

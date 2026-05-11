@@ -1,6 +1,6 @@
 # Agents Protocol
 
-Protocol-Version: 2026-05-11.1  
+Protocol-Version: 2026-05-12.1  
 Status: Active  
 Owner: Abu Muhammad  
 Repository: https://github.com/Alodhaibee/abu-muhammad-memory-public
@@ -29,6 +29,18 @@ Every agent must start project work by reading:
 - Future tool-specific instruction files may be added and referenced from this protocol.
 
 Agents must **not** read the entire repository unless explicitly requested or technically necessary.
+
+## Tool-Local Startup Instructions
+
+- Each supported tool or agent should store a **permanent local** startup or settings instruction when the tool supports it.
+- The startup instruction should tell the tool to **read and follow**:  
+  `D:\MyPrograming\abu-muhammad-memory-public\AGENTS_PROTOCOL.md`
+- This reduces repeated long prompts and keeps all agents aligned to **one central protocol**.
+- Tool-local instructions must remain **short** and must **not** duplicate the full protocol.
+- If tool-local instructions conflict with **`AGENTS_PROTOCOL.md`**, **`AGENTS_PROTOCOL.md` wins**.
+- Tool-local instructions do **not** grant commit/push permission.
+- Commit/push still requires **explicit current-prompt authorization**.
+- Each agent must still write **only** to its **assigned audit report file** (see **Audit Report System**).
 
 ## Protocol Version Rule
 

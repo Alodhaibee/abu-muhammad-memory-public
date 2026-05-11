@@ -2,8 +2,11 @@
 
 ## Protocol precedence (read first)
 
-- **Codex Desktop** must read **`AGENTS_PROTOCOL.md`** at the start of every project/session (it defines the **mandatory startup order** and version rule for all agents).
+- **Codex Desktop** should keep a **permanent local** startup or settings instruction (where Codex supports it) that tells Codex to read **`AGENTS_PROTOCOL.md`** first—before relying on this file—so Abu Muhammad does not need to paste long instructions every session.
+- **Codex Desktop** must read **`AGENTS_PROTOCOL.md`** at the start of every project/session (it defines the **mandatory startup order** and version rule for all agents). That local pointer must stay **short** and must **not** duplicate the full protocol (see **`AGENTS_PROTOCOL.md`** — **Tool-Local Startup Instructions**).
+- **This file** remains **Codex-specific** guidance **after** the central protocol.
 - If **`AGENTS_PROTOCOL.md`** conflicts with this file, **`AGENTS_PROTOCOL.md` wins**.
+- Local startup settings do **not** authorize commit/push; authorization remains **explicit in the current prompt** only.
 - Codex audit report path (**Codex only**): **`D:\MyPrograming\What_I_Have_Done\codex.md`**
 - Do **not** write audit reports to the legacy **`D:\MyPrograming\What_I_Have_Done.md`** file.
 
