@@ -1,5 +1,12 @@
 # Codex Desktop Instructions
 
+## Protocol precedence (read first)
+
+- **Codex Desktop** must read **`AGENTS_PROTOCOL.md`** at the start of every project/session (it defines the **mandatory startup order** and version rule for all agents).
+- If **`AGENTS_PROTOCOL.md`** conflicts with this file, **`AGENTS_PROTOCOL.md` wins**.
+- Codex audit report path (**Codex only**): **`D:\MyPrograming\What_I_Have_Done\codex.md`**
+- Do **not** write audit reports to the legacy **`D:\MyPrograming\What_I_Have_Done.md`** file.
+
 ## Purpose
 
 This file defines how **Codex Desktop** must work with Abu Muhammad’s **shared memory system**.
@@ -19,13 +26,15 @@ Codex Desktop must treat the **public memory repository** as the **safe shared c
 
 ## Required Reading Order
 
-Codex Desktop must begin any project or session by reading, in order:
+Codex Desktop must begin any project or session by reading, in order (aligned with **`AGENTS_PROTOCOL.md`**):
 
-1. `00_MASTER_MEMORY_INDEX.md`
-2. `01_GLOBAL_RULES.md`
-3. `04_ACTIVE_PROJECTS.md`
-4. The **relevant project file only**, for example:  
+1. `AGENTS_PROTOCOL.md`
+2. `00_MASTER_MEMORY_INDEX.md`
+3. `01_GLOBAL_RULES.md`
+4. `04_ACTIVE_PROJECTS.md`
+5. The **relevant project file only**, for example:  
    `projects/LABIB.md`
+6. This file: **`CODEX_DESKTOP_INSTRUCTIONS.md`**
 
 For Labib-related work, Codex Desktop must also read any **clearly referenced** Labib documentation file (for example operator-facing docs under `projects/`) **if and only if** the task requires that content.
 
@@ -44,7 +53,7 @@ Codex Desktop must **not** read the entire repository unless Abu Muhammad explic
 
 - Memory custodian and primary IDE-visible **code executor**.
 - Performs scoped edits and implementation.
-- Writes the **mandatory** audit report after every execution batch (workspace path below).
+- Writes the **mandatory** audit report after every execution batch to **`D:\MyPrograming\What_I_Have_Done\cursor.md`** only (see `01_GLOBAL_RULES.md`).
 - Must not exceed scope; must not commit or push unless explicitly allowed.
 
 ### Claude
@@ -83,7 +92,7 @@ This is **controlled delegated GitHub write access**, not permanent uncontrolled
 - Authorization must be written **clearly** in the user / Cursor / ChatGPT prompt for that run.
 - Codex must **not** assume that previous authorization applies to **future** tasks.
 - Codex must **not** push automatically just because files changed.
-- Codex must **not** commit or push **`What_I_Have_Done.md`**.
+- Codex must **not** commit or push **any** audit file under **`D:\MyPrograming\What_I_Have_Done\`** (or legacy `What_I_Have_Done.md`) unless explicitly authorized for that path.
 - Codex must **not** commit or push private, secret, token, credential, or sensitive files.
 - If commit/push **is** authorized, Codex must use a **guarded** flow:
   1. Confirm repository path.
@@ -97,23 +106,33 @@ This is **controlled delegated GitHub write access**, not permanent uncontrolled
   9. Fetch after push.
   10. Compare local `HEAD` with the remote branch.
   11. Print **`PUSH_VERIFIED`** only if local and remote match.
-  12. Write the execution report to **`D:\MyPrograming\What_I_Have_Done.md`**.
+  12. Write the execution report to **`D:\MyPrograming\What_I_Have_Done\codex.md`** (Codex only; do not touch other agents’ files).
 - If **any** condition fails, Codex must stop with **`BLOCKED:`** and explain why.
 
 ## Audit Report Requirement
 
 Abu Muhammad’s workflow requires an execution report after work runs.
 
-**Report path (exact):**  
-`D:\MyPrograming\What_I_Have_Done.md`
+**Codex Desktop report path (exact):**  
+`D:\MyPrograming\What_I_Have_Done\codex.md`
+
+**Other agents** use their own files under the same folder (see **`01_GLOBAL_RULES.md`** — `cursor.md`, `claude.md`, `chatgpt_handoff.md`). Codex Desktop must **never** write to, delete, overwrite, rename, or modify another agent’s report file.
 
 Rules:
 
-- Workspace-level **temporary** audit report.
-- May be **overwritten** every run (overwrite-only unless Abu Muhammad defines another scheme).
+- Workspace-level **temporary** audit report for **Codex only**.
+- **Codex Desktop must write only to:** `D:\MyPrograming\What_I_Have_Done\codex.md`
+- Codex must write `codex.md` as a **full-file overwrite** on **every** run (**not** append).
+- Codex must **not** leave **stale** content from prior runs (no partial writes that preserve an old tail).
+- Codex must **not** inspect, modify, delete, rename, or overwrite other agents’ report files or the legacy report file: `D:\MyPrograming\What_I_Have_Done\cursor.md`, `D:\MyPrograming\What_I_Have_Done\claude.md`, `D:\MyPrograming\What_I_Have_Done\antigravity.md`, `D:\MyPrograming\What_I_Have_Done\chatgpt_handoff.md`, or `D:\MyPrograming\What_I_Have_Done.md` (unless Abu Muhammad explicitly authorizes access to a specific path for that run—default is **no**).
 - Must **not** be created inside repository roots unless explicitly requested.
-- Must **not** be committed or pushed.
-- Should document, when applicable:
+- Must **not** be committed or pushed unless explicitly requested.
+- Codex reports must include a **report timestamp with timezone** and **exactly one** `Final status:` line, and that line must be the **last non-empty** line in `codex.md`.
+- If Codex detects **duplicated** report blocks, **stale** content, or **multiple** `Final status:` lines in `codex.md`, it must **rewrite `codex.md` cleanly** (full-file overwrite) **before** finishing.
+- Every report must include, when applicable:
+  - **Report timestamp** (with timezone)  
+  - **Agent name** (Codex Desktop)  
+  - **Execution mode**  
   - Commands executed  
   - Files created  
   - Files modified  
@@ -128,7 +147,7 @@ Rules:
   - External/network/repository access  
   - Blocked actions and reasons  
   - Deviations from scope  
-  - Final status  
+  - **Final status** (exactly one `Final status:` line, last non-empty line in the file)  
 
 ## Labib-Specific Notes
 

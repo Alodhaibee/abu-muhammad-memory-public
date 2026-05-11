@@ -3,14 +3,18 @@
 Last updated: 2026-05-10
 Status: Active
 
-Read this file first.
+## Agents Protocol (mandatory — all agents/tools)
+
+**Read `AGENTS_PROTOCOL.md` first** (repository root). It is the **central, versioned operating protocol** for ChatGPT, Cursor, Codex Desktop, Claude, Antigravity, and future agents. It **supersedes** fragile repeated long instructions in prompts when those instructions **duplicate or conflict** with the protocol.
+
+Then read this index file (`00_MASTER_MEMORY_INDEX.md`).
 
 ## Codex Desktop (agent instructions)
 
 **Codex Desktop** must follow the permanent operating guide: **`CODEX_DESKTOP_INSTRUCTIONS.md`** (repository root). It defines how Codex integrates with this public memory layer, required reading order, audit reporting, and boundaries alongside ChatGPT, Cursor, and Claude.
 
 ## Assistant Rules (Mandatory)
-1. Read this file before any other file.
+1. Read **`AGENTS_PROTOCOL.md`** before any other file, then this index.
 2. Read only the relevant project file for the current task.
 3. Do not load all files unless necessary.
 4. Treat this repository as public-safe, high-level memory only.
@@ -21,6 +25,7 @@ Read this file first.
 9. Respect Abu Muhammad's style: practical, phased, documented, low confusion.
 
 ## Routing by task type
+- Central agents protocol (all tools): `AGENTS_PROTOCOL.md`
 - General execution rules: `01_GLOBAL_RULES.md`
 - Tone and language style: `02_STYLE_AND_RESPONSE_RULES.md`
 - Tools/platform overview: `03_TOOLS_AND_ENVIRONMENT.md`
@@ -48,7 +53,7 @@ Read this file first.
 When the task involves **Codex**, local **skills** (`AGENTS.md`, `skills/*/SKILL.md`), or **MCP** wiring plans, read **`projects/CODEX_SKILLS.md`** after this index. **Codex is officially adopted** as a bounded executor. Canonical workstation folder: **`D:\MyPrograming\CodexSkills`**. Private GitHub mirror for the skill pack: **`https://github.com/Alodhaibee/CodexSkills`** (repository **Private**; file bodies not mirrored in this public repo).
 
 ## How AI assistants should use this memory
-1. Read this file first.
+1. After reading **`AGENTS_PROTOCOL.md`**, read this index file.
 2. Read only the relevant project file.
 3. Do not load all files unless necessary.
 4. Use public repo as safe context only.

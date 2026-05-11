@@ -17,6 +17,13 @@
 - Cursor maintains the private repository as full long-term memory source.
 - If details are sensitive or uncertain, keep them private and do not publish them here.
 
+## Central agents protocol (mandatory)
+
+- **`AGENTS_PROTOCOL.md`** (repository root of **`abu-muhammad-memory-public`**) is the **single official** operating protocol for all AI agents/tools in this workflow.
+- **Every agent** must **read it before executing project changes** and must **report the protocol version** read in its own per-agent audit file (see **`AGENTS_PROTOCOL.md`** and **Workspace execution reports** below).
+- Per-agent audit reports live only under **`D:\MyPrograming\What_I_Have_Done\`**. The legacy single file **`D:\MyPrograming\What_I_Have_Done.md`** must **not** be used for **new** agent reports.
+- **Commit/push** remains **explicitly authorized in the current prompt only**, must be **guarded** and **verified** when allowed, and is further specified in **`AGENTS_PROTOCOL.md`**.
+
 ## Accepted Baseline and Conditional Execution Rules
 
 1. Accepted Baseline Rule
@@ -77,26 +84,47 @@ Do not continue with partial push, remote changes, sync, or extra fixes.
 - **Codex** is an **official, bounded terminal executor** in the workflow system (CLI installed, exercised, and governed).
 - Authoritative **local** rules + skills: **`D:\MyPrograming\CodexSkills`**.
 - **Private** GitHub mirror for the skill pack: **`https://github.com/Alodhaibee/CodexSkills`** (details + approved operating rules in **`projects/CODEX_SKILLS.md`**).
-- Codex must follow the same **overwrite-only** workspace report rule as other executors (`What_I_Have_Done.md`), and must **not** delete/move/rename, commit/push, use network, or install packages **without explicit instruction**.
+- Codex must follow the same **per-agent overwrite-only** workspace audit rule as other executors (see **Workspace execution reports** below), and must **not** delete/move/rename, commit/push, use network, or install packages **without explicit instruction**.
 - **“أبو محمد”** as vocative only; **`AbuMuhammad`** not a default prefix for new neutral artifacts (see naming rules below).
 
 ## Codex Desktop — public memory integration (mandatory)
 
 - **Codex Desktop** must follow **`CODEX_DESKTOP_INSTRUCTIONS.md`** (repository root of **`abu-muhammad-memory-public`**) when working on Abu Muhammad’s projects so its behavior matches the shared-memory workflow.
 - Codex Desktop must use this **public memory repo** as the **safe shared baseline** for routing, accepted stages, and coordination with ChatGPT, Cursor, and Claude—**not** for secrets or unapproved private content.
-- Codex Desktop must respect the **workspace-level** audit report rule: write or align with **`D:\MyPrograming\What_I_Have_Done.md`** per the rules in **`CODEX_DESKTOP_INSTRUCTIONS.md`** and the **Workspace execution report** section below.
+- Codex Desktop must respect the **workspace-level** audit rule: write only to **`D:\MyPrograming\What_I_Have_Done\codex.md`** per **`CODEX_DESKTOP_INSTRUCTIONS.md`** and the **Workspace execution reports** section below.
 
-**Controlled delegated GitHub write:** Codex Desktop has controlled delegated GitHub write access **only** when Abu Muhammad **explicitly authorizes commit/push in the current prompt**. Any Codex commit/push must be **scoped**, **guarded**, **verified after push**, and **documented** in **`D:\MyPrograming\What_I_Have_Done.md`**. Codex must **never** commit/push audit reports, secrets, credentials, private repository contents, or files outside the approved scope.
+**Controlled delegated GitHub write:** Codex Desktop has controlled delegated GitHub write access **only** when Abu Muhammad **explicitly authorizes commit/push in the current prompt**. Any Codex commit/push must be **scoped**, **guarded**, **verified after push**, and **documented** in **`D:\MyPrograming\What_I_Have_Done\codex.md`** (Codex’s own audit file). Codex must **never** commit/push audit reports (including any file under `What_I_Have_Done\`), secrets, credentials, private repository contents, or files outside the approved scope.
 
 ## Naming approval (durable artifacts)
 - Before naming any **new** durable folder, project, tool, skill, or important file, obtain **explicit user approval** for the chosen name.
 - **Exception:** names **derived directly** from an already-approved name **without changing meaning** may be reused without re-asking.
 - Do **not** use **`AbuMuhammad`** as a **default prefix** for neutral tools or skills; prefer clean names such as **CodexSkills**, **Codex Workflow**, **Project Control Center**.
 
-## Workspace execution report (`What_I_Have_Done.md`)
-- After each batch of work, executors (**Cursor**, **Claude Code**, **Codex**, and similar) must write an audit report at **`D:\MyPrograming\What_I_Have_Done.md`** (workspace-level, **outside** this public repo unless explicitly requested otherwise).
-- **Overwrite** the file each run so it reflects **only the latest operation** (**never append by default**), unless the user explicitly defines a different reporting scheme.
-- Do **not** create `What_I_Have_Done.md` inside repository roots unless explicitly requested.
-- Do **not** commit or push `What_I_Have_Done.md` unless explicitly requested.
-- When applicable, the report should include: workspace path; goal; files inspected / created / modified / deleted; folders created or deleted; files copied or moved; commands executed; git status before/after; safety scan result; external/network access used (Yes/No); other projects touched (Yes/No); deviations; errors or blocked items; final status.
-- Purpose: full traceability so ChatGPT and the user can verify what each executor did and catch mistakes or unauthorized actions.
+## Workspace execution reports (`What_I_Have_Done/`)
+
+Official audit layout (workspace-level, **outside** this public repo unless Abu Muhammad requests otherwise):
+
+| Agent / role | Audit file (write **only** this file for that agent) |
+|--------------|--------------------------------------------------------|
+| **Cursor** | `D:\MyPrograming\What_I_Have_Done\cursor.md` |
+| **Codex Desktop** (and terminal Codex when used as that executor) | `D:\MyPrograming\What_I_Have_Done\codex.md` |
+| **Claude** | `D:\MyPrograming\What_I_Have_Done\claude.md` |
+| **Antigravity** | `D:\MyPrograming\What_I_Have_Done\antigravity.md` |
+| **ChatGPT handoff** (when represented locally) | `D:\MyPrograming\What_I_Have_Done\chatgpt_handoff.md` |
+
+**Safety rules (multi-agent):**
+
+- Each agent writes **only** to its own file above.
+- **No** agent may delete, overwrite, rename, or modify **another** agent’s report file.
+- **No** agent may delete or recreate the **`D:\MyPrograming\What_I_Have_Done`** folder.
+- Audit files are **local temporary** reports; **do not** commit or push them unless explicitly requested.
+- Each agent may **overwrite only its own** file each run (**overwrite-only** for that file, **never append by default** unless Abu Muhammad defines another scheme).
+- **Per-agent audit reports are snapshot reports, not append logs:** every run must **replace** that agent’s own report file **completely** (full-file overwrite). Append mode is forbidden; leaving stale tail content from a prior run is forbidden.
+- Each report must include a **report timestamp with timezone** and **exactly one** `Final status:` line, and that line must be the **last non-empty** line in the file (see **`AGENTS_PROTOCOL.md`**).
+- **Stale** content, **duplicated** report blocks, or **multiple** `Final status:` lines make the report **invalid**; the agent must **rewrite its own file cleanly** before finishing if it detects any of these in its own audit path.
+- Do **not** create these audit files inside repository roots unless explicitly requested.
+- Each report should include, when applicable: **report timestamp with timezone**; **agent name**; **protocol version read** and **whether the protocol was read successfully** (per **`AGENTS_PROTOCOL.md`**); **execution mode**; scope; commands; files inspected / created / modified / deleted; folders created or deleted; files copied or moved; git status before/after; staged files if git was used; commit hash if created; push result if allowed; external/network access; blocked items; deviations; the single terminal **`Final status:`** line.
+
+**Legacy:** The older single file `D:\MyPrograming\What_I_Have_Done.md` is **deprecated** for routine multi-agent reporting (one writer could clobber another). Prefer the **`What_I_Have_Done\`** folder and per-agent files above.
+
+**Purpose:** Full traceability without agents overwriting each other’s audits.
