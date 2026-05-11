@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-10
+Last updated: 2026-05-12
 Status: Active
+
+## 2026-05-12
+- **Agents Protocol — activation closed (public memory):** **Agents Protocol** centralization is **complete for now**. **`AGENTS_PROTOCOL.md`** is the **official central operating protocol** for **ChatGPT**, **Cursor**, **Codex Desktop**, **Claude**, **Antigravity**, and **future agents**. **Protocol version `2026-05-12.1`** is **active**. **Tool-local** startup/settings pointers are **documented**. **Per-agent audit reports** are **active** under **`D:\MyPrograming\What_I_Have_Done\`**. **Confirmed activation:** **Cursor** = `PROTOCOL_SETTINGS_ACTIVE`; **Codex Desktop** = `PROTOCOL_SETTINGS_ACTIVE`; **Claude** = `PROTOCOL_SETTINGS_ACTIVE`; **Antigravity** = `PROTOCOL_KI_ACTIVE` (Knowledge Item: **MANDATORY STARTUP RULE - AGENTS_PROTOCOL**). **Publication:** protocol commit **`7860f103919b3fa186b08e56178496f1e8e93020`**; tool-local startup instructions commit **`90f4b9333e655e04ea859a4578468c37bdda7594`**. **This topic is closed for now**; further protocol changes require **explicit approval**.
 
 ## 2026-05-10
 - **LABIB — Operator Manual & Final Freeze Documentation:** Adopted **Labib Operator Manual** at **`projects/LABIB_OPERATOR_MANUAL.md`** as the **public-safe operator baseline**; manual pinned at git commit **`f08ca383ff055d08b442a9f007b165b2643b81b6`**. **Final Freeze Documentation** closed as a **public-safe documentary milestone only** (no new runtime code implied); **`projects/LABIB.md`** and **`04_ACTIVE_PROJECTS.md`** (LABIB row) updated accordingly.
