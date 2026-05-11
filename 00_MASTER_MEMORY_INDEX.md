@@ -5,6 +5,10 @@ Status: Active
 
 Read this file first.
 
+## Codex Desktop (agent instructions)
+
+**Codex Desktop** must follow the permanent operating guide: **`CODEX_DESKTOP_INSTRUCTIONS.md`** (repository root). It defines how Codex integrates with this public memory layer, required reading order, audit reporting, and boundaries alongside ChatGPT, Cursor, and Claude.
+
 ## Assistant Rules (Mandatory)
 1. Read this file before any other file.
 2. Read only the relevant project file for the current task.

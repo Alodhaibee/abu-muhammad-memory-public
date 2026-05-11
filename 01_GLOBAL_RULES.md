@@ -80,6 +80,14 @@ Do not continue with partial push, remote changes, sync, or extra fixes.
 - Codex must follow the same **overwrite-only** workspace report rule as other executors (`What_I_Have_Done.md`), and must **not** delete/move/rename, commit/push, use network, or install packages **without explicit instruction**.
 - **“أبو محمد”** as vocative only; **`AbuMuhammad`** not a default prefix for new neutral artifacts (see naming rules below).
 
+## Codex Desktop — public memory integration (mandatory)
+
+- **Codex Desktop** must follow **`CODEX_DESKTOP_INSTRUCTIONS.md`** (repository root of **`abu-muhammad-memory-public`**) when working on Abu Muhammad’s projects so its behavior matches the shared-memory workflow.
+- Codex Desktop must use this **public memory repo** as the **safe shared baseline** for routing, accepted stages, and coordination with ChatGPT, Cursor, and Claude—**not** for secrets or unapproved private content.
+- Codex Desktop must respect the **workspace-level** audit report rule: write or align with **`D:\MyPrograming\What_I_Have_Done.md`** per the rules in **`CODEX_DESKTOP_INSTRUCTIONS.md`** and the **Workspace execution report** section below.
+
+**Controlled delegated GitHub write:** Codex Desktop has controlled delegated GitHub write access **only** when Abu Muhammad **explicitly authorizes commit/push in the current prompt**. Any Codex commit/push must be **scoped**, **guarded**, **verified after push**, and **documented** in **`D:\MyPrograming\What_I_Have_Done.md`**. Codex must **never** commit/push audit reports, secrets, credentials, private repository contents, or files outside the approved scope.
+
 ## Naming approval (durable artifacts)
 - Before naming any **new** durable folder, project, tool, skill, or important file, obtain **explicit user approval** for the chosen name.
 - **Exception:** names **derived directly** from an already-approved name **without changing meaning** may be reused without re-asking.
