@@ -1,6 +1,6 @@
 # LABIB (Public Safe)
 
-Last updated: 2026-05-10
+Last updated: 2026-05-12
 Status: Active
 
 ## Purpose
@@ -48,6 +48,25 @@ Ask for the latest safe summary before giving detailed advice.
 - **Known Operator Manual git commit (public record):** `f08ca383ff055d08b442a9f007b165b2643b81b6`
 - **Scope boundary:** This freeze is **documentation-only** for **public memory**. It does **not** mean new executable work was performed in this repository beyond Markdown updates, and it does **not** replace private operational records.
 - **Deferred items:** Gaps explicitly listed under the Operator Manual deferred section remain **documented only** and are **not** treated as implemented unless a future approved track says otherwise.
+
+## Safe Runtime Check after Final Freeze (public-safe observation)
+
+**Recorded:** 2026-05-12
+
+**Nature:** One-time operator observation on the Raspberry Pi after Final Freeze Documentation. This is **not** a new track, **not** a feature, and **not** a re-validation of accepted Track 06/07 results.
+
+**Outcome:** Passed.
+
+**Summary (public-safe):**
+- Manual check confirmed the Labib Telegram bot process was **running** on the Raspberry Pi.
+- **Exactly one** visible `python3 labib_telegram.py` process was observed at the time of check.
+- Telegram **`/اوامر`** and **`/list`** both responded correctly and showed the existing command families already documented in this file (list/اوامر, ideas/افكاري, status/حالتي, recent/اخر, search/ابحث).
+- A brief review of the operator-facing log file **`telegram_track06.log`** showed no error signal in the sampled tail (benign `nohup: ignoring input` only; no raw log content is published here).
+
+**Explicit boundaries:**
+- No runtime code changes were made as part of this check.
+- No Core or Router changes were made.
+- Track 06 and Track 07 remain **closed**; this observation does **not** reopen them.
 
 ## Shared Brain architecture decision (public-safe)
 - Decision adopted: file-based Shared Brain memory architecture for LABIB.
