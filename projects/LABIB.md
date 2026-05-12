@@ -107,6 +107,61 @@ Improve how useful Labib is for Abu Muhammad’s **daily idea capture and recall
 
 Prepare a separate **implementation plan** only **after** Abu Muhammad approves pursuing this candidate (and, if work proceeds, only under a properly scoped future track — not implied here).
 
+## Ideas Memory Usability Plan — Draft
+
+**Status:** Plan only. **No** implementation in this repository; **no** new track opened by this section. Builds on **Next Capability Candidate — Ideas Memory Usability** above.
+
+**Purpose**
+
+Make **`/ideas`** / **`/افكاري`** outputs easier to **scan, trust, and reuse** for daily capture and recall, without changing what command the operator sends or which router destination is invoked.
+
+**Current accepted command family**
+
+- **`/ideas`** and **`/افكاري`** remain the operator entry points.
+- They continue to map to the existing **“show latest ideas”** router behavior (Safe Command Bridge baseline); mapping and command names stay as accepted in Track 06/07.
+
+**First recommended improvement (smallest practical step)**
+
+Improve **readability and structure of the returned text** (headings, spacing, ordering, short labels, or “idea vs other” cues) **only where** the Telegram layer can do so **without** changing router contracts or Core data rules. If inspection shows that clarity **requires** router or Core logic, **stop** and treat that path as out of scope until explicitly approved elsewhere.
+
+**Likely files to inspect later (when a track is opened — not now)**
+
+- Raspberry Pi deployment tree: **`labib_telegram.py`** (already named in this file as the Telegram bridge) and any **small helper** it uses strictly for formatting outgoing replies.
+- **`test_labib_telegram.py`** (already referenced in this file for prior checks), extended or reused only as needed for regressions.
+- **Private Labib codebase:** the module(s) that **assemble** the “latest ideas” body (exact paths stay private; discovery happens in the private repo under a future track).
+
+**Files and areas not to touch (unless Abu Muhammad explicitly approves a different scope later)**
+
+- **Labib Core** and **Router** (including any change that alters which handler runs or how ideas are selected at the router level).
+- **`AGENTS_PROTOCOL.md`**, **`projects/LABIB_OPERATOR_MANUAL.md`**, and this **public memory** file except for intentional documentation updates.
+- **No new database**, no new persistence layer, **no** alias engine, **no** status subsystem.
+
+**Smallest safe implementation scope (for a future track — not executed here)**
+
+One cohesive change set: **presentation and copy** on the Telegram path for the existing ideas response only, bounded by “no router/Core edit.” If that proves insufficient, **document gap and stop** rather than expand scope silently.
+
+**Test plan (after future implementation only)**
+
+- `python3 -m py_compile labib_telegram.py` on the target host.
+- `python3 test_labib_telegram.py` if present and relevant.
+- Manual Telegram checks: **`/ideas`** and **`/افكاري`** (and a quick **`/اوامر`** sanity check) in **Arabic and English** as applicable; confirm no regression for other listed command families.
+
+**Acceptance criteria**
+
+- Operator can **find recent ideas faster** in the message (clearer structure or labels) with **no new commands** required.
+- **No** change to which underlying router action serves **`/ideas`** / **`/افكاري`**.
+- **No** new subsystem from the deferred list (alias engine, status subsystem, new DB).
+
+**Blocked conditions**
+
+- **BLOCKED** if the only reasonable fix requires **Router** or **Core** changes without a new explicit approval.
+- **BLOCKED** if the work drifts into a **new database**, **alias engine**, **status subsystem**, or **reopening / re-verifying** Track 06/07 baselines.
+- **BLOCKED** if requirements stay ambiguous (what counts as an “idea” vs casual text) and cannot be resolved with a **small** Telegram-side presentation tweak.
+
+**Recommended next action (one step only)**
+
+Have Abu Muhammad **open a named future track** (or equivalent written scope approval) that explicitly authorizes **bounded Telegram-side work** for **`/ideas`** / **`/افكاري`** output only, referencing this draft plan — **before** any runtime edits.
+
 ## Shared Brain architecture decision (public-safe)
 - Decision adopted: file-based Shared Brain memory architecture for LABIB.
 - Operating roles:
