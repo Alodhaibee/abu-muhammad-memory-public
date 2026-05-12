@@ -68,6 +68,45 @@ Ask for the latest safe summary before giving detailed advice.
 - No Core or Router changes were made.
 - Track 06 and Track 07 remain **closed**; this observation does **not** reopen them.
 
+## Next Capability Candidate — Ideas Memory Usability
+
+**Status:** Candidate definition only (not a track; no implementation authorized here).
+
+**1. Purpose**
+
+Improve how useful Labib is for Abu Muhammad’s **daily idea capture and recall**, using the existing operator surface where possible.
+
+**2. Scope**
+
+**Definition only.** No implementation steps, no runtime work, and no new track opened by this note.
+
+**3. Existing command family involved**
+
+- **`/ideas`**
+- **`/افكاري`**
+
+(Both map to the existing “show latest ideas” behavior per the Safe Command Bridge; no new command names are introduced here.)
+
+**4. Possible future behavior (candidates only — not commitments)**
+
+- **Clearer listing** of recent ideas (readability, ordering, or context cues), still routed through the same command family.
+- **Better separation** between items treated as **ideas** versus **casual messages**, without inventing a new subsystem in this definition.
+- **Simple search or filtering of ideas** *if* it can be achieved using behavior already in reach (for example tightening how results are scoped or presented when the existing **`/search` / `/ابحث`** family is used), rather than assuming new storage layers.
+- **No Core or Router change** unless Abu Muhammad explicitly approves a later track that says otherwise.
+
+**Deferred (explicit):** Any **new database**, new persistence layer, or architectural split “ideas store vs messages store” is **out of scope for now** and remains **deferred** unless a future approved plan shows it is necessary.
+
+**5. Boundaries**
+
+- **No** new alias engine.
+- **No** new status subsystem.
+- **No** reopening of Track 06 or Track 07 and **no** re-verification of their accepted results from this note.
+- **No** runtime code changes are performed as part of documenting this candidate in public memory.
+
+**6. Recommended next action**
+
+Prepare a separate **implementation plan** only **after** Abu Muhammad approves pursuing this candidate (and, if work proceeds, only under a properly scoped future track — not implied here).
+
 ## Shared Brain architecture decision (public-safe)
 - Decision adopted: file-based Shared Brain memory architecture for LABIB.
 - Operating roles:
