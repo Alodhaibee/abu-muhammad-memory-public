@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-12
+Last updated: 2026-05-13
 Status: Active
+
+## 2026-05-13
+- **ControlCenter (rename from `AbuMuhammadControlCenter`):** Documented in public memory — local path **`D:\MyPrograming\ControlCenter`**; neutral UI **Control Center** / **Project Dashboard**; audit read prefers **`D:\MyPrograming\What_I_Have_Done\cursor.md`** with fallback **`D:\MyPrograming\What_I_Have_Done.md`**; Actions **3×2**; project list **`ttk.Treeview`** with columns **Note / Git / Project** (short Git markers **OK** / **M**; note marker **N**); **Git cache** avoids subprocess work during search/filter; in-repo strings cleaned of old folder name; verification notes: **`python -m py_compile main.py`** OK, **no internet**, **no Cursor commit/push** during that dev pass; English person spelling note **Abu Mohammed** when needed vs neutral tooling name **ControlCenter**. Updated **`projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md`**, **`00_MASTER_MEMORY_INDEX.md`**, **`04_ACTIVE_PROJECTS.md`**, **`03_TOOLS_AND_ENVIRONMENT.md`**, **`projects/CODEX_SKILLS.md`**.
 
 ## 2026-05-12
 - **LABIB — Ideas Memory Usability Plan (draft, plan only):** Added **`Ideas Memory Usability Plan — Draft`** to **`projects/LABIB.md`** — purpose, preserved **`/ideas` / `/افكاري`** family, first improvement (Telegram-side readability), likely files to inspect later, untouched areas (Core/Router, no new DB/alias/status), smallest scope, test plan, acceptance criteria, blocked conditions, single next-step recommendation (explicit future track before code). **No** runtime implementation in this task.

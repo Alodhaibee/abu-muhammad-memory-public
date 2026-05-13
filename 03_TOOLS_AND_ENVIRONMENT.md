@@ -5,7 +5,7 @@
 - **Codex:** **officially adopted** strong **terminal-side** executor with **`D:\MyPrograming\CodexSkills`** (`AGENTS.md` + skills: `codex_workflow`, `memory_github_reader`, `safe_project_executor`); **private** GitHub mirror **`https://github.com/Alodhaibee/CodexSkills`** (skills repo); **MCP** may attach later. Guardrails: scoped paths only; **no delete / move / rename** unless explicit; no commit/push/network/package install unless explicit; mandatory **`What_I_Have_Done.md` overwrite** (not append); no report inside project folders unless asked.
 - **Cursor:** primary **IDE-visible** executor for repositories and files; typical editing and memory maintenance workflows.
 - **Claude Code:** deep programming executor when heavy implementation passes are needed.
-- **Abu Muhammad Project Control Center:** local Python GUI dashboard under `D:\MyPrograming\AbuMuhammadControlCenter` — lists projects under `D:\MyPrograming`, Git status, opens Folder/Cursor/VS Code/PowerShell, shows `D:\MyPrograming\What_I_Have_Done.md`, stores notes in `data\project_notes.json`, uses `run.bat` / `run_debug.bat`.
+- **Control Center (ControlCenter):** local Python GUI dashboard under `D:\MyPrograming\ControlCenter` — lists projects under `D:\MyPrograming`, Git status (Treeview + cache), opens Folder/Cursor/VS Code/PowerShell, prefers audit `D:\MyPrograming\What_I_Have_Done\cursor.md` with fallback to `D:\MyPrograming\What_I_Have_Done.md`, stores notes in `data\project_notes.json`, uses `run.bat` / `run_debug.bat`.
 - **GitHub Memory (this repository):** official **public-safe** shared memory for assistants — not a vault for secrets.
 
 ## Codex and CodexSkills
@@ -15,7 +15,7 @@
 - **`D:\MyPrograming\test_codex`** was a **temporary sandbox**; **removed manually**; **not** canonical.
 
 ## Preferred tools and platforms (legacy list + anchors)
-- Abu Muhammad Project Control Center (see above)
+- Control Center / ControlCenter (see above)
 - Cursor
 - ChatGPT
 - Codex (+ CodexSkills local pack)

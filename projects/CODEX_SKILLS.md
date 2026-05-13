@@ -49,7 +49,7 @@ This **public memory repo** describes CodexSkills **safely**; it does **not** ho
 - **Codex:** terminal executor bound to **CodexSkills** rules + skills.
 - **Cursor:** IDE-visible editing and typical repo workflows.
 - **Claude Code:** deeper coding passes when needed.
-- **Abu Muhammad Project Control Center:** local dashboard under `D:\MyPrograming`.
+- **Control Center (ControlCenter):** local dashboard under `D:\MyPrograming\ControlCenter` (neutral UI: Project Dashboard); details in `projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md`.
 - **GitHub Memory (this repo):** public-safe orientation — **not** a secrets vault.
 
 ## Naming policy (reference)

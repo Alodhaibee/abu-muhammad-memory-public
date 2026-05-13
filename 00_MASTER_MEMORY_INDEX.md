@@ -1,6 +1,6 @@
 # MASTER MEMORY INDEX (PUBLIC SAFE)
 
-Last updated: 2026-05-10
+Last updated: 2026-05-13
 Status: Active
 
 ## Agents Protocol (mandatory — all agents/tools)
@@ -35,7 +35,7 @@ Then read this index file (`00_MASTER_MEMORY_INDEX.md`).
 
 ## Project routing
 - LABIB: `projects/LABIB.md`
-- Abu Muhammad Project Control Center: `projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md`
+- ControlCenter (UI: **Control Center** / **Project Dashboard**): `projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md` — formerly folder `AbuMuhammadControlCenter`; local path `D:\MyPrograming\ControlCenter`
 - CodexSkills: `projects/CODEX_SKILLS.md`
 - OZZY_OPENCLAW: `projects/OZZY_OPENCLAW.md`
 - SECOND_BRAIN: `projects/SECOND_BRAIN.md`
@@ -48,6 +48,7 @@ Then read this index file (`00_MASTER_MEMORY_INDEX.md`).
 - TJJ: `projects/TJJ.md`
 - SMART_HOME_IOT: `projects/SMART_HOME_IOT.md`
 - SAAS_IDEAS: `projects/SAAS_IDEAS.md`
+- Repo Radar (رادار المستودعات): `projects/REPO_RADAR.md` (خطة التطوير اللاحق محليًا: `D:\MyPrograming\RepoRadar\ROADMAP.md`)
 
 ## Codex / skills / MCP routing
 When the task involves **Codex**, local **skills** (`AGENTS.md`, `skills/*/SKILL.md`), or **MCP** wiring plans, read **`projects/CODEX_SKILLS.md`** after this index. **Codex is officially adopted** as a bounded executor. Canonical workstation folder: **`D:\MyPrograming\CodexSkills`**. Private GitHub mirror for the skill pack: **`https://github.com/Alodhaibee/CodexSkills`** (repository **Private**; file bodies not mirrored in this public repo).
