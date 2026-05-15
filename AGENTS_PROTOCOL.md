@@ -30,6 +30,10 @@ Every agent must start project work by reading:
 
 Agents must **not** read the entire repository unless explicitly requested or technically necessary.
 
+## Local operational knowledge (_KnowledgeWiki)
+
+Before working on Abu Muhammad’s projects, agents should treat **_KnowledgeWiki** as the **local operational knowledge brain** when it is available: read its **agent integration protocol**, follow wiki safety and scope rules, and write **only** to their **own** audit report file (see **Audit Report System**). Do not copy wiki contents, raw/inbox material, or private/strategic registers into this public repository unless Abu Muhammad explicitly approves a **public-safe summary** only.
+
 ## Tool-Local Startup Instructions
 
 - Each supported tool or agent should store a **permanent local** startup or settings instruction when the tool supports it.

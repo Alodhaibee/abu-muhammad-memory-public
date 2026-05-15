@@ -14,6 +14,7 @@ This file provides routing summaries with current public-safe status only.
 | ControlCenter (واجهة: Control Center / Project Dashboard) | Active supporting tool | لوحة Python محليّة تحت `D:\MyPrograming\ControlCenter` (سابقًا مجلد `AbuMuhammadControlCenter`): Treeview Note/Git/Project، Git cache، Actions 3×2، تقرير تدقيق يفضّل `What_I_Have_Done\cursor.md` مع fallback لـ`What_I_Have_Done.md`، ملاحظات `data\project_notes.json`، `run.bat` / `run_debug.bat` | `projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md` |
 | OZZY_OPENCLAW | Active | Automation and agent orchestration | `projects/OZZY_OPENCLAW.md` |
 | SECOND_BRAIN | Active | Memory architecture and organization | `projects/SECOND_BRAIN.md` |
+| _KnowledgeWiki | Active supporting system | **Local operational knowledge brain** (wiki-only, not published to GitHub); agent integration and status registers stay local | `projects/SECOND_BRAIN.md` |
 | TRADING_AND_PINE | Active | Trading knowledge and Pine script direction | `projects/TRADING_AND_PINE.md` |
 | N8N | Active | Automation workflow design | `projects/N8N.md` |
 | UQU_OFFICE | Planned | Office-related workflows and planning | `projects/UQU_OFFICE.md` |

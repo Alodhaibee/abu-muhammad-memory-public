@@ -17,6 +17,10 @@
 - Cursor maintains the private repository as full long-term memory source.
 - If details are sensitive or uncertain, keep them private and do not publish them here.
 
+### _KnowledgeWiki (local — not public)
+- Do **not** publish **_KnowledgeWiki** contents publicly. Only **public-safe summaries** may be added to this repository.
+- **Private/strategic ideas**, **raw/inbox** contents, **evidence**, **scripts**, **configs**, **credentials**, **local paths**, and **sensitive project internals** remain **local/private**.
+
 ## Central agents protocol (mandatory)
 
 - **`AGENTS_PROTOCOL.md`** (repository root of **`abu-muhammad-memory-public`**) is the **single official** operating protocol for all AI agents/tools in this workflow.
