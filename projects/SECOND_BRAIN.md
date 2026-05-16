@@ -8,6 +8,7 @@ Memory system design and knowledge organization.
 - **_KnowledgeWiki** is the **local operational knowledge brain** for Abu Muhammad’s work.
 - It lives **only on the local machine** and is **not published** to GitHub or other public channels.
 - It holds an operational wiki structure: project profiles, decisions, reference and idea/status registers, graph routing hubs, and **agent integration protocols** (how Cursor, Codex, Claude, OpenCode, Antigravity, and ChatGPT coordinate on wiki work).
+- **Agent operating files foundation** (local, not published): KnowledgeWiki now includes an agent operating files foundation. Agents are expected to read shared operating rules and their agent-specific file before work. Cursor has been migrated and compliance-tested. Other agents remain pending migration. This supports centralized workflow rules, safer audits, and reduced repeated manual configuration.
 - **Cursor** is the **primary local wiki updater** within approved scope.
 - **Codex** is the **review / quality gate** after major Cursor wiki runs.
 - The **High-Effort Multi-Agent Work Pack** is the **default mode** for broad, safe wiki maintenance work.
