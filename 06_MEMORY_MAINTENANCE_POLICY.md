@@ -18,6 +18,9 @@ Status: Active
 - Update this public repository only with safety-reviewed content suitable for direct reading.
 - Public reference repository URL:
   - `https://github.com/Alodhaibee/abu-muhammad-memory-public`
+- **Do not** treat memory as updated on GitHub until push is verified on the correct repo; local changes alone are insufficient.
+- After an authorized push, confirm `HEAD` matches `origin` on the target branch before reporting success.
+- Use selective staging when unrelated local files exist; state outcome as **local only**, **commit only**, or **pushed (verified)**.
 
 ## Daily usage workflow (public-safe)
 1. Read `00_MASTER_MEMORY_INDEX.md` first.

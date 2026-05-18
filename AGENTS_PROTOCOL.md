@@ -133,6 +133,16 @@ Every execution report must include:
 - **Previous authorization does not carry forward.**
 - Any push must be **guarded**, **conditional**, and **verified** after push.
 
+### Memory update requests (public-safe)
+
+When Abu Muhammad says **update memory**, **حدث الذاكرة**, **ارفع للذاكرة**, or similar:
+
+- **Do not** report that GitHub memory is updated unless a push to the **correct** repository was **authorized**, executed, and **verified** (`local HEAD` = remote branch).
+- **Local edits or a local clone are not proof** of GitHub sync (private full memory may exist on disk before any private remote exists).
+- Keep **private** full memory and **this public** index separate; never publish private-only or strategic content here without explicit public-safe approval.
+- Before commit/push: inspect `git status --short`; stage **only** approved paths (`git add <path>` — not `git add -A` when unrelated files are present).
+- Tell Abu Muhammad clearly: **local only** / **commit only** / **pushed to GitHub (verified)**.
+
 **Guarded push checklist:**
 
 1. Confirm repository path.  
