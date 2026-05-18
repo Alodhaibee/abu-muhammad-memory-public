@@ -9,6 +9,7 @@ Memory system design and knowledge organization.
 - It lives **only on the local machine** and is **not published** to GitHub or other public channels.
 - It holds an operational wiki structure: project profiles, decisions, reference and idea/status registers, graph routing hubs, and **agent integration protocols** (how Cursor, Codex, Claude, OpenCode, Antigravity, and ChatGPT coordinate on wiki work).
 - **Agent operating files foundation** (local, not published): KnowledgeWiki now includes an agent operating files foundation. Agents are expected to read shared operating rules and their agent-specific file before work. Cursor has been migrated and compliance-tested. Other agents remain pending migration. This supports centralized workflow rules, safer audits, and reduced repeated manual configuration.
+- **Obsidian X-Ray Map** (local, not published): _KnowledgeWiki now includes an Obsidian Canvas **X-Ray Map** as a navigation aid (hub-and-zones layout over the wiki structure), alongside tuned Graph View settings. Agents should **review** whether the map needs an update when important structural routes change (folders, skills, tools, workflows, projects, decisions, outputs, memory routing) — without adding every minor file, to avoid clutter.
 - **Cursor** is the **primary local wiki updater** within approved scope.
 - **Codex** is the **review / quality gate** after major Cursor wiki runs.
 - The **High-Effort Multi-Agent Work Pack** is the **default mode** for broad, safe wiki maintenance work.
