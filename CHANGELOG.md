@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-13
+Last updated: 2026-05-18
 Status: Active
+
+## 2026-05-18
+- **SECOND_BRAIN / _KnowledgeWiki (public-safe):** Recorded **Token usage observability** as a **planning-only** future local track — read-only evaluation later; **no** current installs, hooks, plugins, or agent setting changes; **no** usage data in public memory. Operational detail stays in local _KnowledgeWiki registers. Updated **`projects/SECOND_BRAIN.md`**.
 
 ## 2026-05-13
 - **ControlCenter (rename from `AbuMuhammadControlCenter`):** Documented in public memory — local path **`D:\MyPrograming\ControlCenter`**; neutral UI **Control Center** / **Project Dashboard**; audit read prefers **`D:\MyPrograming\What_I_Have_Done\cursor.md`** with fallback **`D:\MyPrograming\What_I_Have_Done.md`**; Actions **3×2**; project list **`ttk.Treeview`** with columns **Note / Git / Project** (short Git markers **OK** / **M**; note marker **N**); **Git cache** avoids subprocess work during search/filter; in-repo strings cleaned of old folder name; verification notes: **`python -m py_compile main.py`** OK, **no internet**, **no Cursor commit/push** during that dev pass; English person spelling note **Abu Mohammed** when needed vs neutral tooling name **ControlCenter**. Updated **`projects/ABU_MUHAMMAD_PROJECT_CONTROL_CENTER.md`**, **`00_MASTER_MEMORY_INDEX.md`**, **`04_ACTIVE_PROJECTS.md`**, **`03_TOOLS_AND_ENVIRONMENT.md`**, **`projects/CODEX_SKILLS.md`**.

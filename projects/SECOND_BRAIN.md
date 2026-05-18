@@ -15,6 +15,13 @@ Memory system design and knowledge organization.
 - The **Knowledge Status System** tracks: Completed, Pending, Blocked, Useful Now, Useful Later, Reference Candidate, Private/Strategic, Not Useful, Rejected, and Needs Review.
 - **Sensitive details remain local/private** and must **not** be promoted to this public memory repository without explicit, public-safe approval.
 
+## Token usage observability (planning only — public-safe)
+
+- A **future local planning track** may add **read-only** checks on AI/agent token usage to see whether structured wiki workflows and standardized execution reports improve efficiency.
+- **Not active now:** no tool installs, no hooks/plugins, and no agent configuration changes as part of this track.
+- **No secrets or usage data** belong in this public repository.
+- Detailed registers and any scoring design remain in **local _KnowledgeWiki** until Abu Muhammad approves broader public wording.
+
 ## Current high-level status
 Active as a structured external memory approach using Markdown, with _KnowledgeWiki as the local operational layer alongside this public-safe index.
 
