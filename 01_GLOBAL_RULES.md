@@ -139,3 +139,10 @@ Official audit layout (workspace-level, **outside** this public repo unless Abu 
 **Legacy:** The older single file `D:\MyPrograming\What_I_Have_Done.md` is **deprecated** for routine multi-agent reporting (one writer could clobber another). Prefer the **`What_I_Have_Done\`** folder and per-agent files above.
 
 **Purpose:** Full traceability without agents overwriting each other’s audits.
+
+### Agent report review and token honesty (public-safe)
+
+- When reviewing agent execution reports, use a **score out of 5** with a **brief reason**; add a **short improvement note** when useful.
+- Reports that involved model or API processing should include a **Token Routing / Saving Report** section (internal vs external usage, routing summary when known).
+- If exact token counts or costs are **not available**, state **Unknown** and explain why — **do not fabricate** token numbers.
+- Estimates, when used, must be labeled **Estimated** with the measurement source noted.

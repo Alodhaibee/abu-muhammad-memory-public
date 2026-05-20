@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-18
+Last updated: 2026-05-20
 Status: Active
+
+## 2026-05-20
+- **SECOND_BRAIN / Skill Bank (public-safe):** Recorded **Skill Bank** as an **agent-neutral** local skills system; first validation **`systematic-debugging`** — **PASS**, review **5/5**; structured diagnosis workflow confirmed (problem, hypotheses, inspection, evidence, likely cause, minimal fix). **`01_GLOBAL_RULES.md`:** agent report review **score /5** with brief reason; honest **Token Routing / Saving Report** required when applicable (**Unknown** allowed; no fabricated token counts). Updated **`projects/SECOND_BRAIN.md`**, **`01_GLOBAL_RULES.md`**.
 
 ## 2026-05-18
 - **SECOND_BRAIN / _KnowledgeWiki (public-safe):** Recorded **Token usage observability** as a **planning-only** future local track — read-only evaluation later; **no** current installs, hooks, plugins, or agent setting changes; **no** usage data in public memory. Operational detail stays in local _KnowledgeWiki registers. Updated **`projects/SECOND_BRAIN.md`**.
