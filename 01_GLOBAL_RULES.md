@@ -146,3 +146,14 @@ Official audit layout (workspace-level, **outside** this public repo unless Abu 
 - Reports that involved model or API processing should include a **Token Routing / Saving Report** section (internal vs external usage, routing summary when known).
 - If exact token counts or costs are **not available**, state **Unknown** and explain why — **do not fabricate** token numbers.
 - Estimates, when used, must be labeled **Estimated** with the measurement source noted.
+
+### Controlled agent self-development (public-safe)
+
+Adopt a **controlled self-development workflow** for agents:
+
+- Agents **must not** modify themselves or implement self-development changes **directly**.
+- Any agent may **record improvement ideas** in a **dedicated ideas register** (local, not published here in full).
+- When an idea matures or is adopted, record it in a **dedicated evolution/history register** (local detail stays private unless approved for public summary).
+- **Any real implementation** requires **explicit review and approval** by Abu Muhammad (user/supervisor) **before** execution.
+- The workflow must stay **agent-neutral** and **reusable** across current and future agents — not tied to one tool.
+- Agents may **later** propose development ideas from references, communities, or GitHub — **as suggestions only**, never as automatic implementation.
