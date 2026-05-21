@@ -32,5 +32,18 @@
 - Graphify (high-level knowledge graph visualization candidate)
 - gbrain (high-level graph-assisted knowledge workflow candidate)
 
+## Python on Windows — logon autostart (adopted pattern)
+
+For **long-running** local Python apps (bots, daemons) that should start at **Windows user logon** without a stuck black console:
+
+| Use | Avoid for autostart |
+|-----|---------------------|
+| `scripts\run_*_hidden.vbs` launched by Scheduled Task via `wscript.exe //B` | Scheduled Task running `cmd.exe` or `scripts\run_*.bat` directly |
+| `scripts\setup_autostart.ps1` / `check_autostart.ps1` / `remove_autostart.ps1` | Reading or logging `.env` secrets in setup scripts |
+| `scripts\run_*.bat` for **manual** runs only (visible CMD is OK) | `pip` when `uv` is the project standard |
+| `uv run` from project root; logs under `logs\` | Server deploy / SSH unless explicitly scoped |
+
+`check_autostart` should report **hidden** vs **legacy visible** launcher. Full local skill: _KnowledgeWiki `skills/python-windows-autostart.md`. Reference project: `D:\MyPrograming\Youtube_TextExtractor` (task `Youtube_TextExtractor_Bot` — hidden launcher, 2026-05-21).
+
 ## Safety boundary
 This file contains tool preferences only and intentionally excludes access credentials, system addresses, or operational secrets.

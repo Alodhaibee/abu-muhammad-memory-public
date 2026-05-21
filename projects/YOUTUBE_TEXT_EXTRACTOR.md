@@ -26,8 +26,15 @@ Public-safe: نعم (لا أسرار، لا توكنات، لا محتوى `.env
 
 نسخة عمل سابقة في مجلد Downloads — **ليست** المسار الرسمي بعد الآن. استخدم المسار تحت `D:\MyPrograming` فقط.
 
+## تشغيل ذاتي على Windows (ملخص عام)
+
+- **يدوي:** `scripts\run_bot.bat` (قد تظهر نافذة CMD).
+- **عند logon:** مهمة `Youtube_TextExtractor_Bot` تشغّل `wscript.exe //B` → `scripts\run_bot_hidden.vbs` — **بدون** نافذة سوداء عالقة.
+- **لا** تستخدم `cmd.exe` أو `run_bot.bat` مباشرة في Scheduled Task للتشغيل الذاتي (نمط قديم يُستبدل).
+- السجلات: `logs\bot_autostart.log` محليًا — لا تُنشر.
+
 ## للوكلاء
 
 1. اقرأ **`AGENTS_PROTOCOL.md`** ثم **`00_MASTER_MEMORY_INDEX.md`** ثم **هذا الملف**.
-2. للتفاصيل التشغيلية الكاملة: `_KnowledgeWiki` محليًا (`projects/youtube-text-extractor.md`) أو ملخص تدقيق في `D:\MyPrograming\What_I_Have_Done\cursor.md`.
+2. للتفاصيل التشغيلية الكاملة: `_KnowledgeWiki` محليًا (`projects/youtube-text-extractor.md`, skill `python-windows-autostart.md`) أو ملخص تدقيق في `D:\MyPrograming\What_I_Have_Done\cursor.md`.
 3. **لا** تطلب من أبو محمد نشر توكن Telegram أو قيم `.env` هنا.

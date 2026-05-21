@@ -4,6 +4,7 @@ Last updated: 2026-05-21
 Status: Active
 
 ## 2026-05-21
+- **Python Windows logon autostart (public-safe):** Adopted reusable pattern — hidden `run_*_hidden.vbs` + Scheduled Task `wscript.exe //B`; `run_*.bat` manual only; **do not** autostart via visible `cmd.exe` or `.bat` (avoids stuck black console). **`03_TOOLS_AND_ENVIRONMENT.md`** updated; **`projects/YOUTUBE_TEXT_EXTRACTOR.md`** autostart summary; local skill `_KnowledgeWiki/skills/python-windows-autostart.md`.
 - **Youtube_TextExtractor (public-safe):** Documented local Telegram → YouTube transcript → `.txt` utility at **`D:\MyPrograming\Youtube_TextExtractor`** — **local-only**, **uv**, **no** Supabase/MySQL/database storage, **no** server deployment in this phase; config via local **`.env`** only (no secrets in public repo). Downloads folder copy **not** canonical. Updated **`projects/YOUTUBE_TEXT_EXTRACTOR.md`**, **`04_ACTIVE_PROJECTS.md`**, **`00_MASTER_MEMORY_INDEX.md`**.
 
 ## 2026-05-20
