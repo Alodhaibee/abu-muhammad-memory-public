@@ -1,40 +1,56 @@
 # Youtube_TextExtractor — مستخرج نص YouTube (Telegram)
 
 Last updated: 2026-05-21  
-Status: **Active / local-only / PASS (revived & cleaned)**  
+Status: **Active — local workstation + remote Linux host (deployed)**  
 Public-safe: نعم (لا أسرار، لا توكنات، لا محتوى `.env`)
 
 ## الموقع
 
-- **المسار المعتمد:** `D:\MyPrograming\Youtube_TextExtractor`
-- **النوع:** أداة Python محلية صغيرة — بوت Telegram يستقبل رابط YouTube ويرسل نص/ترجمة كملف `.txt` (اسم الملف من عنوان الفيديو حسب الإعدادات).
+- **محلي (تطوير/مرجع):** `D:\MyPrograming\Youtube_TextExtractor` — **uv**, `pyproject.toml`
+- **بعيد (تشغيل):** `/home/0hani0/Programing/Telgram` — تفاصيل SSH والمضيف في _KnowledgeWiki الخاص (لا تُنشر tokens هنا)
 
 ## الحكم
 
-- **محلي فقط** في هذه المرحلة — **لا** نشر على سيرفر و**لا** IP أو بنية استضافة في الذاكرة العامة.
-- **لا** Supabase و**لا** MySQL و**لا** تخزين قاعدة بيانات للنصوص.
-- الإعدادات عبر **`.env` محلي** فقط (من قالب `.env.example`) — **لا** ترفع `.env` إلى Git أو الذاكرة العامة.
+- بوت Telegram: رابط YouTube → نص/ترجمة → ملف **`.txt`** (اسم الملف من عنوان الفيديو).
+- **لا** Supabase و**لا** MySQL و**لا** تخزين قاعدة بيانات و**لا** مطالبة حفظ (أُزيلت من النسخة النشطة على الخادم، 2026-05-21).
+- **محلي:** إعدادات عبر **`.env`** — لا ترفع إلى Git أو الذاكرة العامة.
+- **بعيد:** أسرار في **`config.py`** — **محفوظة دون استبدال**؛ لم يُنسخ `.env` أو توكن المحلي إلى الخادم.
 
 ## التقنية (ملخص عام)
 
-- **Python** + **uv** (`pyproject.toml`, `uv.lock`)
-- **youtube-transcript-api** (تدفق متوافق مع 1.2.x)
-- **yt-dlp** كاحتياطي للترجمات
-- **لا** أسرار في هذا الملف
+| بيئة | Runtime |
+|------|---------|
+| Local Windows | **uv** + youtube-transcript-api 1.2.x + yt-dlp |
+| Remote Linux | **venv + pip** (uv غير متوفر على الخادم حاليًا — عمدًا لتجنب كسر PM2) |
 
-## مصدر قديم (غير معتمد للتشغيل)
+المنطق: youtube-transcript-api (متوافق 1.2.x) ثم yt-dlp fallback.
 
-نسخة عمل سابقة في مجلد Downloads — **ليست** المسار الرسمي بعد الآن. استخدم المسار تحت `D:\MyPrograming` فقط.
+## تشغيل بعيد (ملخص عام — بدون أسرار)
 
-## تشغيل ذاتي على Windows (ملخص عام)
+| Item | Public-safe note |
+|------|------------------|
+| Process manager | **PM2** — process name `telgram-bot` |
+| Active entry | `youtube_transcript_bot.py` |
+| Legacy file | `youtubeToText.py` — موجود كأرشيف، **ليس** العملية النشطة |
+| Restart | `pm2 restart telgram-bot` |
+| Logs | `pm2 logs telgram-bot` (على الخادم) |
 
-- **يدوي:** `scripts\run_bot.bat` (قد تظهر نافذة CMD).
-- **عند logon:** مهمة `Youtube_TextExtractor_Bot` تشغّل `wscript.exe //B` → `scripts\run_bot_hidden.vbs` — **بدون** نافذة سوداء عالقة.
-- **لا** تستخدم `cmd.exe` أو `run_bot.bat` مباشرة في Scheduled Task للتشغيل الذاتي (نمط قديم يُستبدل).
-- السجلات: `logs\bot_autostart.log` محليًا — لا تُنشر.
+## تشغيل ذاتي على Windows (محلي فقط)
+
+- **يدوي:** `scripts\run_bot.bat`
+- **عند logon:** `wscript.exe //B` → `run_bot_hidden.vbs` (بدون نافذة سوداء عالقة)
+- انظر _KnowledgeWiki skill `python-windows-autostart` للتفاصيل المحلية
+
+## قرار لاحق (خاص)
+
+مراجعة ما إذا كان بوت **الخادم** يحتاج تقييد `USER_ID` / `ALLOWED_TELEGRAM_USER_IDS` — التفاصيل في _KnowledgeWiki و`What_I_Have_Done\cursor.md` (بدون قيم).
+
+## مصدر قديم (غير معتمد)
+
+مجلد Downloads على Windows — **ليست** النسخة الرسمية. المسارات المعتمدة أعلاه.
 
 ## للوكلاء
 
 1. اقرأ **`AGENTS_PROTOCOL.md`** ثم **`00_MASTER_MEMORY_INDEX.md`** ثم **هذا الملف**.
-2. للتفاصيل التشغيلية الكاملة: `_KnowledgeWiki` محليًا (`projects/youtube-text-extractor.md`, skill `python-windows-autostart.md`) أو ملخص تدقيق في `D:\MyPrograming\What_I_Have_Done\cursor.md`.
-3. **لا** تطلب من أبو محمد نشر توكن Telegram أو قيم `.env` هنا.
+2. تفاصيل SSH والمسارات الكاملة: _KnowledgeWiki `projects/youtube-text-extractor.md` (خاص).
+3. **لا** تطلب نشر توكن Telegram أو قيم `.env` في الذاكرة العامة.

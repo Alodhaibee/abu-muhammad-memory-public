@@ -45,5 +45,15 @@ For **long-running** local Python apps (bots, daemons) that should start at **Wi
 
 `check_autostart` should report **hidden** vs **legacy visible** launcher. Full local skill: _KnowledgeWiki `skills/python-windows-autostart.md`. Reference project: `D:\MyPrograming\Youtube_TextExtractor` (task `Youtube_TextExtractor_Bot` — hidden launcher, 2026-05-21).
 
+## Youtube Transcript Telegram Bot — deployment note (public-safe)
+
+- **Local:** `D:\MyPrograming\Youtube_TextExtractor` (uv).
+- **Remote:** Linux host — project folder `/home/0hani0/Programing/Telgram`; PM2 process **`telgram-bot`**; active script **`youtube_transcript_bot.py`**; legacy **`youtubeToText.py`** not the running entrypoint.
+- **Restart (remote):** `pm2 restart telgram-bot`.
+- **Secrets:** remain in remote **`config.py`** (unchanged); no `.env` copy from local; no tokens in this repo.
+- **Removed on server (2026-05-21):** Supabase, MySQL, DB storage, save prompt — transcript sent as `.txt` only.
+- **Server uv:** not installed; **venv/pip** kept for service stability.
+- Full SSH/host details: private _KnowledgeWiki only.
+
 ## Safety boundary
 This file contains tool preferences only and intentionally excludes access credentials, system addresses, or operational secrets.
