@@ -1,6 +1,6 @@
 # Active Projects (Public Overview)
 
-Last updated: 2026-05-13 (ControlCenter rename + capabilities documented in public memory; Repo Radar / Labib context unchanged)
+Last updated: 2026-05-21 (Youtube_TextExtractor local tool added — public-safe summary)
 Status: Active
 
 This file provides routing summaries with current public-safe status only.
@@ -25,3 +25,4 @@ This file provides routing summaries with current public-safe status only.
 | SMART_HOME_IOT | Planned | Smart home and IoT direction | `projects/SMART_HOME_IOT.md` |
 | SAAS_IDEAS | Idea Bank | Opportunity map and SaaS ideas | `projects/SAAS_IDEAS.md` |
 | Repo Radar (رادار المستودعات) | **v0.1 complete / dev deferred (not permanently closed)** | Prototype محلي في `D:\MyPrograming\RepoRadar`؛ v0.1 نسخة أولى مجمّدة مؤقتًا لتجنب التعقيد الزائد؛ المشروع **قابل للتطوير لاحقًا**؛ خطة المراحل: **`ROADMAP.md`** في مجلد المشروع؛ تفاصيل الحالة في `projects/REPO_RADAR.md` | `projects/REPO_RADAR.md` |
+| Youtube_TextExtractor | **Active / local-only** | بوت Telegram محلي: رابط YouTube → نص/ترجمة → ملف `.txt`؛ **uv**؛ **لا** Supabase/MySQL/DB؛ إعدادات `.env` محلي فقط؛ لا نشر سيرفر في هذه المرحلة | `projects/YOUTUBE_TEXT_EXTRACTOR.md` |

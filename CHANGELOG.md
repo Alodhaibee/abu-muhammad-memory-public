@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-20
+Last updated: 2026-05-21
 Status: Active
+
+## 2026-05-21
+- **Youtube_TextExtractor (public-safe):** Documented local Telegram → YouTube transcript → `.txt` utility at **`D:\MyPrograming\Youtube_TextExtractor`** — **local-only**, **uv**, **no** Supabase/MySQL/database storage, **no** server deployment in this phase; config via local **`.env`** only (no secrets in public repo). Downloads folder copy **not** canonical. Updated **`projects/YOUTUBE_TEXT_EXTRACTOR.md`**, **`04_ACTIVE_PROJECTS.md`**, **`00_MASTER_MEMORY_INDEX.md`**.
 
 ## 2026-05-20
 - **SECOND_BRAIN / Skill Bank (public-safe):** Recorded **Skill Bank** as an **agent-neutral** local skills system; first validation **`systematic-debugging`** — **PASS**, review **5/5**; structured diagnosis workflow confirmed (problem, hypotheses, inspection, evidence, likely cause, minimal fix). **`01_GLOBAL_RULES.md`:** agent report review **score /5** with brief reason; honest **Token Routing / Saving Report** required when applicable (**Unknown** allowed; no fabricated token counts). Updated **`projects/SECOND_BRAIN.md`**, **`01_GLOBAL_RULES.md`**.
