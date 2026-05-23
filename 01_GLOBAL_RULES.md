@@ -147,6 +147,15 @@ Official audit layout (workspace-level, **outside** this public repo unless Abu 
 - If exact token counts or costs are **not available**, state **Unknown** and explain why — **do not fabricate** token numbers.
 - Estimates, when used, must be labeled **Estimated** with the measurement source noted.
 
+### Skill Bank (local bodies — public-safe summary, 2026-05-23)
+
+- Local **_KnowledgeWiki** Skill Bank (`skills/`) holds **agent-neutral** procedures; **`skills/README.md`** is the **live registry** (agent quick tables are shortcuts only).
+- **Stabilized 2026-05-23** (session `SESSION_SKILL_BANK_BACKBONE_AND_PROJECT_MANIFEST_DRY_TEST_2026-05-23`): **workflow-audit**, **memory-update-safe**, **agent-report-review**, **project-manifest**, **skill-discovery**, **skill-opportunity-review**.
+- **project-manifest** had a practical **dry test** on a private voice-kit project — **PASS** locally; do **not** publish full manifests or long audit bodies here.
+- **Next (when approved):** sync Cursor quick table with registry (add project-manifest, skill-discovery, skill-opportunity-review).
+- **Constraint:** **no new skills** at the start of the next session — stabilize existing skills first.
+- **Cursor audit hygiene:** long accumulated `cursor.md` content may be copied to **`What_I_Have_Done/archive/`** (dated archive); active **`cursor.md`** remains **one full snapshot per run** (overwrite-only).
+
 ### Controlled agent self-development (public-safe)
 
 Adopt a **controlled self-development workflow** for agents:
