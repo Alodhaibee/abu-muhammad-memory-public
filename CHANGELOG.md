@@ -1,12 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-21
+Last updated: 2026-05-23
 Status: Active
 
-## 2026-05-21
-- **Youtube_TextExtractor — remote deploy (public-safe):** Server bot updated to match local transcript logic (youtube-transcript-api 1.2.x + yt-dlp, `.txt` by video title); Supabase/MySQL/DB/save prompt removed from active path; PM2 **`telgram-bot`** runs **`youtube_transcript_bot.py`**; **`config.py`** secrets preserved (not replaced); local `.env`/token not copied; server **uv** N/A — **venv/pip** retained. Updated **`projects/YOUTUBE_TEXT_EXTRACTOR.md`**, **`03_TOOLS_AND_ENVIRONMENT.md`**.
-- **Python Windows logon autostart (public-safe):** Adopted reusable pattern — hidden `run_*_hidden.vbs` + Scheduled Task `wscript.exe //B`; `run_*.bat` manual only; **do not** autostart via visible `cmd.exe` or `.bat` (avoids stuck black console). **`03_TOOLS_AND_ENVIRONMENT.md`** updated; **`projects/YOUTUBE_TEXT_EXTRACTOR.md`** autostart summary; local skill `_KnowledgeWiki/skills/python-windows-autostart.md`.
-- **Youtube_TextExtractor (public-safe):** Documented local Telegram → YouTube transcript → `.txt` utility at **`D:\MyPrograming\Youtube_TextExtractor`** — **local-only**, **uv**, **no** Supabase/MySQL/database storage, **no** server deployment in this phase; config via local **`.env`** only (no secrets in public repo). Downloads folder copy **not** canonical. Updated **`projects/YOUTUBE_TEXT_EXTRACTOR.md`**, **`04_ACTIVE_PROJECTS.md`**, **`00_MASTER_MEMORY_INDEX.md`**.
+## 2026-05-23
+- **SECOND_BRAIN / Skill Bank backbone (public-safe):** Recorded expansion of local **agent-neutral Skill Bank** with **workflow audit**, **safe memory update**, **project manifest**, **skill discovery** (live registry: `skills/README.md`), and **skill opportunity review** (avoid uncontrolled skill sprawl). **Stabilize-first rule:** do not add new skills until existing ones are in active use. Per-agent skill quick tables may lag the registry — sync when approved. **`projects/SECOND_BRAIN.md`** updated.
 
 ## 2026-05-20
 - **SECOND_BRAIN / Skill Bank (public-safe):** Recorded **Skill Bank** as an **agent-neutral** local skills system; first validation **`systematic-debugging`** — **PASS**, review **5/5**; structured diagnosis workflow confirmed (problem, hypotheses, inspection, evidence, likely cause, minimal fix). **`01_GLOBAL_RULES.md`:** agent report review **score /5** with brief reason; honest **Token Routing / Saving Report** required when applicable (**Unknown** allowed; no fabricated token counts). Updated **`projects/SECOND_BRAIN.md`**, **`01_GLOBAL_RULES.md`**.
