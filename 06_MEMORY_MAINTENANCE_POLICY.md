@@ -98,3 +98,5 @@ Status: Active
 - This trail supports continuity, accountability, and reconstruction of what happened.
 - It is stored in external memory and audit files, not as long duplicated ChatGPT memory.
 - Black Box records must not include secrets or sensitive content.
+- The concept also covers practical verification of whether an agent worked or failed by reading the evidence/report it produced, including blockers and next-action context.
+- Durable useful operating lessons should be externalized to the appropriate memory layer; public-safe lessons may be added to public memory.
