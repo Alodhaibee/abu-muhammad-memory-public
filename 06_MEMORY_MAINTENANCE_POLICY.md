@@ -91,3 +91,10 @@ Status: Active
 - When information is already captured in this public memory repository or another approved external memory layer, ChatGPT should not keep long duplicated details in its own memory.
 - ChatGPT should retain only a lightweight pointer to the external source of truth.
 - If durable information is missing from external memory, record it first in the appropriate external layer, then reduce ChatGPT memory back to lightweight baseline.
+
+## Black Box / Agent Evidence Trail (public-safe)
+- For Abu Muhammad's agent workflows, "Black Box" means a reviewable evidence trail of agent work.
+- Typical evidence includes: files read, files changed, decisions made, blocked items, audit reports, and push verification.
+- This trail supports continuity, accountability, and reconstruction of what happened.
+- It is stored in external memory and audit files, not as long duplicated ChatGPT memory.
+- Black Box records must not include secrets or sensitive content.
