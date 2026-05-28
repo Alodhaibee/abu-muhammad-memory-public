@@ -45,3 +45,18 @@ Status: Active
 ## Monthly review process
 - Review overall public memory clarity and routing quality.
 - Re-validate safety posture for direct ChatGPT reading.
+
+## ChatGPT lightweight memory index policy
+- Main ChatGPT context source is this public memory repository:
+  - `https://github.com/Alodhaibee/abu-muhammad-memory-public`
+- ChatGPT internal memory must remain a lightweight index only.
+- Do not store long session reports, expired reminders, temporary decisions, or detailed project histories in ChatGPT memory.
+- When context is needed, read public GitHub memory entrypoints first, then use local KnowledgeWiki/private reports only when provided or needed.
+- Canonical Cursor audit path:
+  - `D:\MyPrograming\What_I_Have_Done\cursor.md`
+- Legacy/non-default audit path:
+  - `D:\MyPrograming\What_I_Have_Done.md` (placeholder only; not default)
+- No commit or push in memory workflows unless explicitly approved in the current session.
+- Skill Bank remains agent-neutral (not Cursor-specific).
+- Protect private or strategic ideas before publishing public memory updates.
+- Mobile reminders (for example: "remind me when I reach the computer") are temporary holding notes only; once externally recorded and evidenced, they should not stay duplicated in ChatGPT memory.
