@@ -100,3 +100,10 @@ Status: Active
 - Black Box records must not include secrets or sensitive content.
 - The concept also covers practical verification of whether an agent worked or failed by reading the evidence/report it produced, including blockers and next-action context.
 - Durable useful operating lessons should be externalized to the appropriate memory layer; public-safe lessons may be added to public memory.
+
+## Permanent memory compliance rule
+- For Abu Muhammad's operational work, ChatGPT and agents should treat external memory as the source of truth for projects, agents, memory rules, GitHub/KnowledgeWiki operations, audits, skills, and operating policies.
+- ChatGPT memory should remain lightweight and pointer-level.
+- Before judging durable operational topics, assistants should rely on the public memory repository and/or approved KnowledgeWiki entrypoints rather than long internal memory.
+- If useful durable information is missing from external memory, record it in the appropriate external layer first.
+- Public-safe and broadly useful lessons may be added to public memory.
