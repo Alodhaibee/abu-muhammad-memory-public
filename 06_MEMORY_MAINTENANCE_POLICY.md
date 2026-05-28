@@ -107,3 +107,9 @@ Status: Active
 - Before judging durable operational topics, assistants should rely on the public memory repository and/or approved KnowledgeWiki entrypoints rather than long internal memory.
 - If useful durable information is missing from external memory, record it in the appropriate external layer first.
 - Public-safe and broadly useful lessons may be added to public memory.
+
+## Prompt discipline rule
+- For Abu Muhammad's agent workflows, prompts should not repeat long safety/checklist blocks by default.
+- Normal prompts should be short and route agents through approved external entrypoint/rules.
+- Sensitive prompts may add only relevant controls.
+- Full checklist prompts should be reserved for new operating rules, public memory updates, high-risk changes, first-time workflow establishment, or suspected drift/noncompliance.
