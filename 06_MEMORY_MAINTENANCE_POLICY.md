@@ -86,3 +86,8 @@ Status: Active
 - Audit/execution reporting is required for every Cursor action, including read-only checks and no-edit tasks.
 - If a prompt says "do not modify any file", operational exception is:
   - do not modify any file except appending the required audit report to `D:\MyPrograming\What_I_Have_Done\cursor.md`.
+
+## ChatGPT memory pruning against external memory
+- When information is already captured in this public memory repository or another approved external memory layer, ChatGPT should not keep long duplicated details in its own memory.
+- ChatGPT should retain only a lightweight pointer to the external source of truth.
+- If durable information is missing from external memory, record it first in the appropriate external layer, then reduce ChatGPT memory back to lightweight baseline.
