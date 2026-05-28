@@ -67,3 +67,22 @@ Status: Active
 - Skill Bank remains agent-neutral (not Cursor-specific).
 - Protect private or strategic ideas before publishing public memory updates.
 - Mobile reminders (for example: "remind me when I reach the computer") are temporary holding notes only; once externally recorded and evidenced, they should not stay duplicated in ChatGPT memory.
+
+## External-first operating boundary (public-safe)
+- Detailed operating rules should be stored in external systems, not long-form ChatGPT memory.
+- External sources of truth are:
+  - local operational KnowledgeWiki
+  - this public-safe memory repository (when suitable for public visibility)
+- ChatGPT memory should stay pointer-only and lightweight:
+  - "Use the external memory system / KnowledgeWiki / public memory repo as the operational source of truth."
+- When a current external entrypoint/rule exists, do not rely on long detailed ChatGPT memory copies.
+- Agents should start from the current external entrypoint/rules for routing and execution context.
+
+## Cursor audit continuity rule (public-safe summary)
+- Cursor canonical audit path remains:
+  - `D:\MyPrograming\What_I_Have_Done\cursor.md`
+- Legacy/non-default path remains:
+  - `D:\MyPrograming\What_I_Have_Done.md` (placeholder only unless explicitly requested)
+- Audit/execution reporting is required for every Cursor action, including read-only checks and no-edit tasks.
+- If a prompt says "do not modify any file", operational exception is:
+  - do not modify any file except appending the required audit report to `D:\MyPrograming\What_I_Have_Done\cursor.md`.
