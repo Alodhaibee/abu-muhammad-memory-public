@@ -37,6 +37,12 @@ Status: Active
 - Run safety scan checks before public commits.
 - Do not commit if risky sensitive values are detected.
 
+## GitHub safe publish workflow (public updates)
+- For commit/push operations, use the `github-safe-publish` workflow from the local Skill Bank.
+- Do not proceed when unexplained or unrelated working-tree changes exist; stop and request Abu Muhammad's decision first.
+- After push/fetch verification, local `HEAD` must match `origin/<branch>` before reporting success.
+- If remote verification is uncertain or mismatched, treat the run as blocked.
+
 ## Weekly cleanup process
 - Refresh public project summaries.
 - Remove duplicate or stale high-level wording.
