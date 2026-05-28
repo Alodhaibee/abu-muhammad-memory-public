@@ -42,6 +42,7 @@ Status: Active
 - Do not proceed when unexplained or unrelated working-tree changes exist; stop and request Abu Muhammad's decision first.
 - After push/fetch verification, local `HEAD` must match `origin/<branch>` before reporting success.
 - If remote verification is uncertain or mismatched, treat the run as blocked.
+- Suggested blocked status label for this case: `BLOCKED_REMOTE_MISMATCH`.
 
 ## Weekly cleanup process
 - Refresh public project summaries.
