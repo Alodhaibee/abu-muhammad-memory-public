@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-29
+Last updated: 2026-05-30
 Status: Active
+
+## 2026-05-30
+- **Telegram Mailman — safety hardening pause (public-safe):** Session **`SESSION_TELEGRAM_MAILMAN_STOP_RECORD_AND_GITHUB_UPDATE_2026-05-30`**. Recorded completion of safety hardening implementation (**`PASS_SAFETY_HARDENING_IMPLEMENTED`**) from prior session **`SESSION_TELEGRAM_MAILMAN_SAFETY_HARDENING_IMPLEMENT_2026-05-30`**: offline **preflight** checks, persistent **send ledger** for duplicate-send prevention, offline tests (**26/26** pass), documentation sync. **Live sending paused** — no future live send until read-only hardening review **`SESSION_TELEGRAM_MAILMAN_HARDENING_REVIEW_2026-05-30`** passes. **No** secrets, tokens, or chat IDs in this update. Added **`projects/TELEGRAM_MAILMAN.md`**; updated **`04_ACTIVE_PROJECTS.md`**, **`00_MASTER_MEMORY_INDEX.md`**.
 
 ## 2026-05-29
 - **Skill Bank governance — anti-bloat (public-safe):** Session **`SESSION_PUBLISH_SKILL_GOVERNANCE_MEMORY_UPDATE_2026-05-29`**. Owner-approved principle: before new rules/skills, check existing Skill Bank coverage; prefer improving/anchoring existing skills over duplicates; lifecycle **skill-discovery** → **skill-opportunity-review** → **skill-authoring**; also **project-continuity-plan**, **workflow-audit**, shared operating rules. **ChatGPT / Abu Saleh** proactively remind owner to route ideas into existing mechanisms. Updated **`01_GLOBAL_RULES.md`**, **`06_MEMORY_MAINTENANCE_POLICY.md`**, **`projects/SECOND_BRAIN.md`**.

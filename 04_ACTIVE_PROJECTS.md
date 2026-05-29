@@ -1,6 +1,6 @@
 # Active Projects (Public Overview)
 
-Last updated: 2026-05-21 (Youtube_TextExtractor local tool added — public-safe summary)
+Last updated: 2026-05-30 (Telegram Mailman pause — public-safe summary)
 Status: Active
 
 This file provides routing summaries with current public-safe status only.
@@ -26,3 +26,4 @@ This file provides routing summaries with current public-safe status only.
 | SAAS_IDEAS | Idea Bank | Opportunity map and SaaS ideas | `projects/SAAS_IDEAS.md` |
 | Repo Radar (رادار المستودعات) | **v0.1 complete / dev deferred (not permanently closed)** | Prototype محلي في `D:\MyPrograming\RepoRadar`؛ v0.1 نسخة أولى مجمّدة مؤقتًا لتجنب التعقيد الزائد؛ المشروع **قابل للتطوير لاحقًا**؛ خطة المراحل: **`ROADMAP.md`** في مجلد المشروع؛ تفاصيل الحالة في `projects/REPO_RADAR.md` | `projects/REPO_RADAR.md` |
 | Youtube_TextExtractor | **Active (local + remote)** | محلي: `D:\MyPrograming\Youtube_TextExtractor` (**uv**). بعيد: PM2 `telgram-bot`, `youtube_transcript_bot.py`؛ **لا** DB/حفظ؛ أسرار `config.py` محفوظة؛ إعادة تشغيل: `pm2 restart telgram-bot` | `projects/YOUTUBE_TEXT_EXTRACTOR.md` |
+| Telegram Mailman | **Paused — safety hardening done** | Standalone local Telegram message carrier at `D:\MyPrograming\tools\telegram-mailman`; **offline default**; preflight + send ledger implemented; **26/26** offline tests; live sending **paused** — hardening review required before any future live send | `projects/TELEGRAM_MAILMAN.md` |
