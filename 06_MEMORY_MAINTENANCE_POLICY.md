@@ -124,6 +124,13 @@ Status: Active
 - Local skills: **compact-session-prompt**, **skill-authoring**, **skill-opportunity-review** (KnowledgeWiki `skills/` — bodies local only).
 - **Prompt discipline** and **compact prompts** are operational rules in KnowledgeWiki `AGENTS_START_HERE.md` and `agents/shared.md`.
 
+## Skill Bank governance — anti-bloat (public-safe, 2026-05-29)
+- **Before** a new skill or global rule: verify an existing Skill Bank skill or shared operating rule does not already cover the pattern (**skill-discovery** first).
+- **Prefer:** improve an existing skill, anchor in **`agents/shared.md`**, or use a template/tool — **not** a duplicate `skills/*.md` file.
+- **Lifecycle (names only, local bodies):** **skill-discovery** → **skill-opportunity-review** (when a pattern repeats) → **skill-authoring** (only after review + owner approval). Also route long-running work via **project-continuity-plan** and end sessions with **workflow-audit**.
+- **ChatGPT / Abu Saleh** should remind the owner when an idea belongs in these mechanisms instead of a new parallel rule.
+- **Not** for one-time ideas or session excitement. See **`01_GLOBAL_RULES.md`** (Skill Bank governance).
+
 ## Owner-facing Arabic editorial policy (public-safe)
 - **Abu Saleh** owns **editorial Arabic wording** for owner-facing Skill Bank catalog and similar summaries.
 - Agents (including Cursor) may **apply** Arabic text supplied in an approved session; they must **not invent** literal Arabic translations for owner-facing titles or explanations without Abu Saleh review.

@@ -157,6 +157,21 @@ Official audit layout (workspace-level, **outside** this public repo unless Abu 
 - **project-manifest** had a practical **dry test** on a private voice-kit project — **PASS** locally; do **not** publish full manifests or long audit bodies here.
 - **Cursor audit hygiene:** long accumulated `cursor.md` content may be copied to **`What_I_Have_Done/archive/`** (dated archive); active **`cursor.md`** remains append per run unless owner requests overwrite.
 
+### Skill Bank governance — avoid duplicate skills and rules (public-safe, 2026-05-29)
+
+**Operating preference (owner-approved):** Before proposing a **new rule**, **decision record**, or **Skill Bank skill**, check whether an **existing Skill Bank skill** or **shared operating rule** already covers it.
+
+| Default | Action |
+|---------|--------|
+| Pattern already covered (~80%+) | **Improve or anchor** the existing skill or rule — do **not** add a near-duplicate |
+| Repeated useful pattern | Route through **skill-discovery** → **skill-opportunity-review** → **skill-authoring** (authoring **only after** review + approval) |
+| Long / multi-session project work | Use **project-continuity-plan** decision gate when applicable |
+| Session accountability | **workflow-audit** and local **`agents/shared.md`** learned practices |
+
+**Do not** create skills from **one-time use** or session **excitement**. Prefer **improving existing mechanisms** over skill bloat.
+
+**ChatGPT / Abu Saleh:** Proactively remind Abu Muhammad when a new idea should be routed into existing mechanisms (names above) instead of inventing a parallel rule or skill. Full skill bodies stay in local **_KnowledgeWiki** only.
+
 ### Controlled agent self-development (public-safe)
 
 Adopt a **controlled self-development workflow** for agents:

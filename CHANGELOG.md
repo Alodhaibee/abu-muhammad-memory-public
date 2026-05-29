@@ -4,6 +4,7 @@ Last updated: 2026-05-29
 Status: Active
 
 ## 2026-05-29
+- **Skill Bank governance — anti-bloat (public-safe):** Session **`SESSION_PUBLISH_SKILL_GOVERNANCE_MEMORY_UPDATE_2026-05-29`**. Owner-approved principle: before new rules/skills, check existing Skill Bank coverage; prefer improving/anchoring existing skills over duplicates; lifecycle **skill-discovery** → **skill-opportunity-review** → **skill-authoring**; also **project-continuity-plan**, **workflow-audit**, shared operating rules. **ChatGPT / Abu Saleh** proactively remind owner to route ideas into existing mechanisms. Updated **`01_GLOBAL_RULES.md`**, **`06_MEMORY_MAINTENANCE_POLICY.md`**, **`projects/SECOND_BRAIN.md`**.
 - **Memory / Skill Bank operating rules (public-safe):** Sessions **`SESSION_MEMORY_UPDATE_WITH_PERSONAL_MONITORING_TEST`**, **`SESSION_FIX_PERSONAL_MONITORING_APPROVAL_BEHAVIOR`**, **`SESSION_FIX_MEMORY_PUBLISH_VERIFICATION_RULE`**, **`SESSION_SAFE_PUBLISH_KNOWLEDGEWIKI_AND_MEMORY_RULE_UPDATES`**. Recorded **session finality**, **repeatable prompt → Skill Bank**, **Abu Saleh Arabic editorial policy**, **agent-neutral pattern adoption** (Superpowers distillation when appropriate), **personal-monitoring** / **compact-session-prompt**, and **memory publish verification** (LOCAL_UPDATED / READY_NOT_PUSHED / PUBLISHED_AND_VERIFIED). Updated **`06_MEMORY_MAINTENANCE_POLICY.md`**, **`01_GLOBAL_RULES.md`**, **`projects/SECOND_BRAIN.md`**. Full skill bodies remain in local **_KnowledgeWiki** only.
 
 ## 2026-05-23
