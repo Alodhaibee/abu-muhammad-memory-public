@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-23
+Last updated: 2026-05-29
 Status: Active
+
+## 2026-05-29
+- **Memory / Skill Bank operating rules (public-safe):** Sessions **`SESSION_MEMORY_UPDATE_WITH_PERSONAL_MONITORING_TEST`**, **`SESSION_FIX_PERSONAL_MONITORING_APPROVAL_BEHAVIOR`**, **`SESSION_FIX_MEMORY_PUBLISH_VERIFICATION_RULE`**, **`SESSION_SAFE_PUBLISH_KNOWLEDGEWIKI_AND_MEMORY_RULE_UPDATES`**. Recorded **session finality**, **repeatable prompt → Skill Bank**, **Abu Saleh Arabic editorial policy**, **agent-neutral pattern adoption** (Superpowers distillation when appropriate), **personal-monitoring** / **compact-session-prompt**, and **memory publish verification** (LOCAL_UPDATED / READY_NOT_PUSHED / PUBLISHED_AND_VERIFIED). Updated **`06_MEMORY_MAINTENANCE_POLICY.md`**, **`01_GLOBAL_RULES.md`**, **`projects/SECOND_BRAIN.md`**. Full skill bodies remain in local **_KnowledgeWiki** only.
 
 ## 2026-05-23
 - **SECOND_BRAIN / Skill Bank backbone (public-safe):** Session **`SESSION_SKILL_BANK_BACKBONE_AND_PROJECT_MANIFEST_DRY_TEST_2026-05-23`**. Stabilized local **agent-neutral Skill Bank**: **workflow-audit**, **memory-update-safe**, **agent-report-review** (score /5 polish), **project-manifest**, **skill-discovery**, **skill-opportunity-review**. **project-manifest** practical **dry test** on a private voice-kit project — **PASS** (local audit only; no full manifest published). **Registry drift:** live `skills/README.md` ahead of Cursor quick table — **next:** add project-manifest, skill-discovery, skill-opportunity-review to Cursor table when approved. **Constraint:** stabilize existing skills first — **no new skills** at start of next session. **`projects/SECOND_BRAIN.md`**, **`01_GLOBAL_RULES.md`** (Skill Bank summary) updated.

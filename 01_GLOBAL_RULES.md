@@ -147,14 +147,15 @@ Official audit layout (workspace-level, **outside** this public repo unless Abu 
 - If exact token counts or costs are **not available**, state **Unknown** and explain why — **do not fabricate** token numbers.
 - Estimates, when used, must be labeled **Estimated** with the measurement source noted.
 
-### Skill Bank (local bodies — public-safe summary, 2026-05-23)
+### Skill Bank (local bodies — public-safe summary, 2026-05-29)
 
 - Local **_KnowledgeWiki** Skill Bank (`skills/`) holds **agent-neutral** procedures; **`skills/README.md`** is the **live registry** (agent quick tables are shortcuts only).
 - **Stabilized 2026-05-23** (session `SESSION_SKILL_BANK_BACKBONE_AND_PROJECT_MANIFEST_DRY_TEST_2026-05-23`): **workflow-audit**, **memory-update-safe**, **agent-report-review**, **project-manifest**, **skill-discovery**, **skill-opportunity-review**.
+- **Expanded 2026-05-29 (public-safe names only):** **personal-monitoring**, **compact-session-prompt**, **memory-update-safe** / **github-safe-publish** (publish verification layers), **skill-authoring**, plus **learned operating practices** in local `agents/shared.md` (evidence, skill discovery, design before build, agent-neutral distillation).
+- **Session finality:** Do not claim **PASS** / session closed while unresolved items remain — use **PARTIAL** / **NEEDS_REVIEW** / **BLOCKED** (see **06_MEMORY_MAINTENANCE_POLICY.md**).
+- **Owner-facing Arabic:** Abu Saleh editorial review for catalog wording; agents apply approved Arabic — do not invent literal owner-facing Arabic.
 - **project-manifest** had a practical **dry test** on a private voice-kit project — **PASS** locally; do **not** publish full manifests or long audit bodies here.
-- **Next (when approved):** sync Cursor quick table with registry (add project-manifest, skill-discovery, skill-opportunity-review).
-- **Constraint:** **no new skills** at the start of the next session — stabilize existing skills first.
-- **Cursor audit hygiene:** long accumulated `cursor.md` content may be copied to **`What_I_Have_Done/archive/`** (dated archive); active **`cursor.md`** remains **one full snapshot per run** (overwrite-only).
+- **Cursor audit hygiene:** long accumulated `cursor.md` content may be copied to **`What_I_Have_Done/archive/`** (dated archive); active **`cursor.md`** remains append per run unless owner requests overwrite.
 
 ### Controlled agent self-development (public-safe)
 

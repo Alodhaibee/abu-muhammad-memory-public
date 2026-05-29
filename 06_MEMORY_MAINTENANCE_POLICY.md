@@ -1,6 +1,6 @@
 # Memory Maintenance Policy
 
-Last updated: 2026-05-06
+Last updated: 2026-05-29
 Status: Active
 
 ## Split model
@@ -113,3 +113,33 @@ Status: Active
 - Normal prompts should be short and route agents through approved external entrypoint/rules.
 - Sensitive prompts may add only relevant controls.
 - Full checklist prompts should be reserved for new operating rules, public memory updates, high-risk changes, first-time workflow establishment, or suspected drift/noncompliance.
+
+## Session finality check (public-safe)
+- Agents must **not** claim **PASS**, **COMPLETE**, or that a session can **close cleanly** while **unresolved items** remain for the stated goal.
+- Use **PARTIAL**, **NEEDS_REVIEW**, or **BLOCKED** and list open items unless Abu Muhammad explicitly accepts them in the current thread.
+- Pair with local **workflow-audit** skill and **evidence-before-completion** rules in KnowledgeWiki `agents/shared.md`.
+
+## Repeatable prompt patterns → skills (public-safe)
+- Repeated long prompt blocks (Mode, startup paths, safety checklists) should become **compact session wrappers** or **Skill Bank** skills — not re-pasted every session.
+- Local skills: **compact-session-prompt**, **skill-authoring**, **skill-opportunity-review** (KnowledgeWiki `skills/` — bodies local only).
+- **Prompt discipline** and **compact prompts** are operational rules in KnowledgeWiki `AGENTS_START_HERE.md` and `agents/shared.md`.
+
+## Owner-facing Arabic editorial policy (public-safe)
+- **Abu Saleh** owns **editorial Arabic wording** for owner-facing Skill Bank catalog and similar summaries.
+- Agents (including Cursor) may **apply** Arabic text supplied in an approved session; they must **not invent** literal Arabic translations for owner-facing titles or explanations without Abu Saleh review.
+- English skill filenames remain the agent execution source; Arabic catalog is for owner navigation (`skills/_00_SKILLS_CATALOG.ar.md` — local).
+
+## Agent-neutral pattern adoption (public-safe)
+- Useful agent behaviors — including patterns observed from **Cursor Superpowers** or other tools — may be **distilled** into **agent-neutral** Skill Bank skills or shared operating rules when they improve results across agents.
+- Do **not** copy proprietary plugin formats, hook names, or tool-specific packaging verbatim into Skill Bank.
+- Tool-specific execution stays in per-agent operating files; Skill Bank stays agent-neutral.
+
+## Skill Bank — personal monitoring and compact prompts (public-safe, 2026-05-29)
+- **personal-monitoring:** Owner-visible **rendered pre-action table** before meaningful steps; levels **light / normal / strict / approval-gated**; **`strict`** recommended default in compact prompts (continue after table unless sensitive); **`approval-gated`** for Git/secrets/live/delete/publish. Full skill local only.
+- **compact-session-prompt:** Short prompts with `Use standard KnowledgeWiki startup` instead of repeating boilerplate; pairs with personal-monitoring when `Monitoring:` is set. Full skill local only.
+- **Registry:** KnowledgeWiki `skills/README.md` is the live list; public memory records names and purpose only — not full skill bodies.
+
+## Memory publish verification (public-safe, 2026-05-29)
+- Do **not** describe public memory as **published on GitHub** unless **commit + push + verify** (`git fetch`; local `HEAD` = `origin/master` on the correct repo).
+- **Three layers** agents must not confuse: **LOCAL_UPDATED** (disk only) · **READY_NOT_PUSHED** (prepared or committed locally, not verified on GitHub) · **PUBLISHED_AND_VERIFIED** (push verified).
+- Local edits under `abu-muhammad-memory-public` alone are **not** publish. Full procedures: KnowledgeWiki `skills/memory-update-safe.md`, `skills/github-safe-publish.md`, `skills/workflow-audit.md` (local only).
