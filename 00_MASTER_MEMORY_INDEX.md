@@ -18,11 +18,12 @@ Then read this index file (`00_MASTER_MEMORY_INDEX.md`).
 2. Read only the relevant project file for the current task.
 3. Do not load all files unless necessary.
 4. Treat this repository as public-safe, high-level memory only.
-5. Never ask Abu Muhammad to place secrets in this repository.
-6. If a task needs secrets or operational access, ask for a safe summary or use Cursor locally on the private repository.
-7. For project-specific tasks, read the matching file under `projects/`.
-8. Keep responses Arabic-first unless the task requires English.
-9. Respect Abu Muhammad's style: practical, phased, documented, low confusion.
+5. Follow **`AGENTS_PROTOCOL.md`** — **Owner-Name Privacy Rule** (neutral labels in recorded files; personal name in private chat only).
+6. Never ask the program owner to place secrets in this repository.
+7. If a task needs secrets or operational access, ask for a safe summary or use Cursor locally on the private repository.
+8. For project-specific tasks, read the matching file under `projects/`.
+9. Keep responses Arabic-first unless the task requires English.
+10. Respect the program owner's style: practical, phased, documented, low confusion.
 
 ## Routing by task type
 - Central agents protocol (all tools): `AGENTS_PROTOCOL.md`

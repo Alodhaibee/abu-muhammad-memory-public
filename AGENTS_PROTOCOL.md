@@ -122,10 +122,42 @@ Every execution report must include:
 
 ## Naming and Structure Rules
 
-- Do **not** create new project names, folder names, tool names, file names, or architectural labels without Abu Muhammad’s approval.
+- Do **not** create new project names, folder names, tool names, file names, or architectural labels without owner approval.
 - Do **not** introduce new subsystems unless explicitly requested.
 - Do **not** delete, move, or restructure files unless explicitly requested.
 - If naming is required, **propose** names and wait for approval unless the name was **already approved**.
+
+## Owner-Name Privacy Rule (mandatory)
+
+Owner decision (2026-06-01): personal owner name/label usage is a **privacy and portability** requirement for all agents.
+
+### Allowed
+
+- **Private chat only:** The owner may use their chosen personal label/name in direct private conversation (including with Abu Saleh).
+
+### Not allowed (default)
+
+Do **not** write the owner's personal name or label into recorded or transferable content, including:
+
+- program files, transferable documentation, config files, templates, code comments
+- reports, operational _KnowledgeWiki files, or anything copied, shared, or transferred
+
+**Exception:** The owner **explicitly requests** the personal label/name for **that specific file and purpose**.
+
+### Default neutral labels
+
+| English | Arabic |
+|---------|--------|
+| owner | المالك |
+| program owner | مالك البرنامج |
+| authorized owner | المالك المصرّح |
+
+### Defects and scope limits
+
+- Treat violations as **privacy/portability defects** — correct when editing affected files; do **not** bulk-rewrite historical archives.
+- **Repository/folder names** (e.g. `abu-muhammad-memory-public`) are **out of scope** for this rule; renaming path tokens requires a **separate controlled oversight project**.
+
+Local operational detail: `D:\MyPrograming\_KnowledgeWiki\agents\shared.md` — **Owner-Name Privacy Rule**.
 
 ## Git and GitHub Rules
 

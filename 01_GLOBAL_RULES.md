@@ -111,6 +111,20 @@ Do not continue with partial push, remote changes, sync, or extra fixes.
 - **Exception:** names **derived directly** from an already-approved name **without changing meaning** may be reused without re-asking.
 - Do **not** use **`AbuMuhammad`** as a **default prefix** for neutral tools or skills; prefer clean names such as **CodexSkills**, **Codex Workflow**, **Project Control Center**.
 
+## Owner-Name Privacy Rule (mandatory)
+
+Owner decision (2026-06-01). Full protocol: **`AGENTS_PROTOCOL.md`** — **Owner-Name Privacy Rule**.
+
+| Context | Rule |
+|---------|------|
+| **Private chat** | Owner's chosen personal label/name is **allowed** (including conversation with Abu Saleh). |
+| **Recorded / transferable content** | Do **not** use the personal name/label in program files, docs, configs, templates, code comments, reports, operational wiki files, or client-transferable content — **unless** the owner explicitly requests it for that specific file/purpose. |
+| **Default labels** | **owner**, **program owner**, **authorized owner**; **المالك**, **مالك البرنامج**, **المالك المصرّح** |
+| **Violations** | Privacy/portability **defects** — fix when editing; no bulk historical rewrites |
+| **Path tokens** | Do **not** rename repos/folders (e.g. `abu-muhammad-memory-public`) under this rule — separate oversight project |
+
+**Related (existing):** vocative **"أبو محمد"** in live chat only; **`AbuMuhammad`** not a default prefix for neutral artifacts (Codex summary above).
+
 ## Workspace execution reports (`What_I_Have_Done/`)
 
 Official audit layout (workspace-level, **outside** this public repo unless Abu Muhammad requests otherwise):
@@ -179,6 +193,6 @@ Adopt a **controlled self-development workflow** for agents:
 - Agents **must not** modify themselves or implement self-development changes **directly**.
 - Any agent may **record improvement ideas** in a **dedicated ideas register** (local, not published here in full).
 - When an idea matures or is adopted, record it in a **dedicated evolution/history register** (local detail stays private unless approved for public summary).
-- **Any real implementation** requires **explicit review and approval** by Abu Muhammad (user/supervisor) **before** execution.
+- **Any real implementation** requires **explicit review and approval** by the program owner (user/supervisor) **before** execution.
 - The workflow must stay **agent-neutral** and **reusable** across current and future agents — not tied to one tool.
 - Agents may **later** propose development ideas from references, communities, or GitHub — **as suggestions only**, never as automatic implementation.
