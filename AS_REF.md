@@ -27,6 +27,20 @@ Do not place secrets, credentials, private client details, or unnecessary person
 
 Prefer neutral labels such as owner, program owner, or authorized owner when a role is needed.
 
+## Reference retention
+
+**Protected keys:** Do not remove the public repository URL or this file from lightweight local notes. They are the return keys to external memory.
+
+When local notes grow beyond the basic anchors, review each additional item first:
+
+| Item type | Action |
+|-----------|--------|
+| Temporary or completed | Remove from local notes. Do not export. |
+| Durable operational information | Ask the **authorized owner** first whether external recording is approved. |
+| After approval only | Route with the next suitable execution prompt: record here if the item belongs in short reference notes; otherwise record in the public index, operational wiki, project files, or other appropriate external reference for shared agents, projects, or system-wide rules. |
+
+**Goals:** Prevent loss of important information. Prevent internal note bloat.
+
 ## Consolidated table (when requested)
 
 When a consolidated memory table is requested:
