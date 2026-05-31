@@ -1,6 +1,6 @@
 # Memory Maintenance Policy
 
-Last updated: 2026-05-29
+Last updated: 2026-06-01
 Status: Active
 
 ## Split model
@@ -53,7 +53,51 @@ Status: Active
 - Review overall public memory clarity and routing quality.
 - Re-validate safety posture for direct ChatGPT reading.
 
+## ChatGPT / Abu Saleh — three lightweight memory anchors (mandatory)
+
+Owner decision (2026-06-01): **ChatGPT memory stays lightweight.** Keep **only** these three anchors:
+
+| # | Anchor | Content |
+|---|--------|---------|
+| **1** | **External-first principle** | Operational rules, agent rules, project details, workflows, and durable decisions must **not** live mainly in ChatGPT memory. They belong in the **external memory repository** and/or durable **_KnowledgeWiki** references. |
+| **2** | **Public memory repo URL** | `https://github.com/Alodhaibee/abu-muhammad-memory-public` |
+| **3** | **Self-reminder / anti-bloat rule** | For rules, agents, Cursor, GitHub, KnowledgeWiki, projects, workflows, or memory topics: **start from** this public repo and **`00_MASTER_MEMORY_INDEX.md`**, not from long internal ChatGPT memory. If ChatGPT memory holds durable details beyond these three anchors, route them through Cursor/KnowledgeWiki/GitHub, **verify** external anchoring/publish, then **remove** redundant details from ChatGPT memory. |
+
+**Durable operational details belong in external files — not ChatGPT memory.**
+
+### When new durable information appears in ChatGPT memory
+
+1. **Route** it to Cursor / KnowledgeWiki / GitHub at the nearest appropriate opportunity.
+2. **Verify** it is saved or published externally (public-safe content only in this repo).
+3. **Remove** or request removal from ChatGPT memory after external anchoring is confirmed.
+
+### Public vs private boundary (mandatory)
+
+- Do **not** store sensitive, private, or client-specific details in this public repo.
+- Public repo content must be **public-safe** only.
+- Private/local details belong in **_KnowledgeWiki** (local operational), private memory, or local project files — **not** here.
+- Do **not** rename repository/folder path tokens (e.g. `abu-muhammad-memory-public`) under this policy — separate oversight project.
+
+### Memory categories that should NOT remain in ChatGPT memory
+
+Export these to the correct external layer, then prune ChatGPT memory:
+
+- Detailed Cursor audit reports and long session transcripts
+- Commit hashes and push verification details (belong in git history / audit files)
+- Telegram Mailman implementation details (belong in project files / KnowledgeWiki)
+- Project-specific OWNER_SETTINGS and local config details
+- Detailed workflow rules, Skill Bank bodies, and agent operating procedures
+- Exact file lists from old sessions
+- Long project histories and multi-session execution logs
+- Old operational failures, cleanup details, and one-off debugging notes
+- Project ideas that belong in KnowledgeWiki registers or `projects/*.md`
+- Duplicate copies of rules already in this repo or _KnowledgeWiki
+- Secrets, tokens, credentials, client data, or strategic private ideas
+
 ## ChatGPT lightweight memory index policy
+
+**Canonical:** See **three lightweight memory anchors** above. This section adds detail only.
+
 - Main ChatGPT context source is this public memory repository:
   - `https://github.com/Alodhaibee/abu-muhammad-memory-public`
 - ChatGPT internal memory must remain a lightweight index only.

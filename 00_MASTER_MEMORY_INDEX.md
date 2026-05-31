@@ -1,6 +1,6 @@
 # MASTER MEMORY INDEX (PUBLIC SAFE)
 
-Last updated: 2026-05-30
+Last updated: 2026-06-01
 Status: Active
 
 ## Agents Protocol (mandatory — all agents/tools)
@@ -24,6 +24,16 @@ Then read this index file (`00_MASTER_MEMORY_INDEX.md`).
 8. For project-specific tasks, read the matching file under `projects/`.
 9. Keep responses Arabic-first unless the task requires English.
 10. Respect the program owner's style: practical, phased, documented, low confusion.
+
+## ChatGPT / Abu Saleh memory (three anchors only)
+
+Full policy: **`06_MEMORY_MAINTENANCE_POLICY.md`** — **three lightweight memory anchors**.
+
+Keep ChatGPT memory limited to:
+
+1. **External-first** — durable rules and project detail live externally, not in ChatGPT memory.
+2. **Public repo URL** — `https://github.com/Alodhaibee/abu-muhammad-memory-public`
+3. **Anti-bloat self-reminder** — start from this repo and this index; export excess durable detail via Cursor/KnowledgeWiki/GitHub, verify, then prune ChatGPT memory.
 
 ## Routing by task type
 - Central agents protocol (all tools): `AGENTS_PROTOCOL.md`

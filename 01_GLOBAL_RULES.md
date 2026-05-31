@@ -13,8 +13,8 @@
 - Keep final outputs easy to review.
 
 ## External memory model (public-safe)
-- ChatGPT uses lightweight memory and reads this repository as safe index context.
-- Cursor maintains the private repository as full long-term memory source.
+- ChatGPT / Abu Saleh memory keeps **only three lightweight anchors** — see **`06_MEMORY_MAINTENANCE_POLICY.md`** (**three lightweight memory anchors**).
+- ChatGPT reads this repository as safe index context; Cursor maintains private/full memory locally.
 - If details are sensitive or uncertain, keep them private and do not publish them here.
 
 ### _KnowledgeWiki (local — not public)

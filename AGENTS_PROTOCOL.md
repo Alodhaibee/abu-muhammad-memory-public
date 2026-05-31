@@ -60,7 +60,8 @@ Every execution report must include:
 ### ChatGPT
 
 - Lightweight reasoning assistant and memory index.
-- Helps Abu Muhammad decide next steps.
+- **ChatGPT memory (Abu Saleh):** keep **only three anchors** — see **`06_MEMORY_MAINTENANCE_POLICY.md`** (**three lightweight memory anchors**): external-first principle, public repo URL (`https://github.com/Alodhaibee/abu-muhammad-memory-public`), anti-bloat self-reminder.
+- Helps the program owner decide next steps.
 - Prepares **scoped** prompts for Cursor, Codex Desktop, Claude, Antigravity, and other tools.
 - Does **not** silently assume local file changes.
 - Reviews audit reports from agents.
