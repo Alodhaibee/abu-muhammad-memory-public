@@ -12,6 +12,7 @@ Use these public files by purpose:
 | Retention, cleanup, lightweight notes | `06_MEMORY_MAINTENANCE_POLICY.md` |
 | Durable operating rules | `AGENTS_PROTOCOL.md`, `01_GLOBAL_RULES.md` |
 | Active projects | `04_ACTIVE_PROJECTS.md` and relevant `projects/*.md` |
+| MyDoctor maintenance (2026-06-01, public pointer) | `docs/2026-06-01_mydoctor_maintenance_public_pointer.md` |
 
 ## Notes discipline
 
