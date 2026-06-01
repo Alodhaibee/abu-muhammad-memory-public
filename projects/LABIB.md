@@ -160,7 +160,7 @@ One cohesive change set: **presentation and copy** on the Telegram path for the 
 
 **Recommended next action (one step only)**
 
-Have Abu Muhammad **open a named future track** (or equivalent written scope approval) that explicitly authorizes **bounded Telegram-side work** for **`/ideas`** / **`/افكاري`** output only, referencing this draft plan — **before** any runtime edits.
+Have the program owner **open a named future track** (or equivalent written scope approval) that explicitly authorizes **bounded Telegram-side work** for **`/ideas`** / **`/افكاري`** output only, referencing this draft plan — **before** any runtime edits.
 
 ## Shared Brain architecture decision (public-safe)
 - Decision adopted: file-based Shared Brain memory architecture for LABIB.
