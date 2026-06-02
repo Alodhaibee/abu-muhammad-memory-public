@@ -2,7 +2,7 @@
 
 ## Roles in the current system (high level)
 - **ChatGPT:** planning, review, prompt shaping, decisions, reading structured execution reports.
-- **Codex:** **officially adopted** strong **terminal-side** executor with **`D:\MyPrograming\CodexSkills`** (`AGENTS.md` + skills: `codex_workflow`, `memory_github_reader`, `safe_project_executor`); **private** GitHub mirror **`https://github.com/Alodhaibee/CodexSkills`** (skills repo); **MCP** may attach later. Guardrails: scoped paths only; **no delete / move / rename** unless explicit; no commit/push/network/package install unless explicit; mandatory **`What_I_Have_Done.md` overwrite** (not append); no report inside project folders unless asked.
+- **Codex:** **officially adopted** strong **terminal-side** executor with **`D:\MyPrograming\CodexSkills`** (`AGENTS.md` + skills: `codex_workflow`, `memory_github_reader`, `safe_project_executor`); **private** GitHub mirror **`https://github.com/Alodhaibee/CodexSkills`** (skills repo); **MCP** may attach later. Guardrails: scoped paths only; **no delete / move / rename** unless explicit; no commit/push/network/package install unless explicit; mandatory per-agent audit under **`What_I_Have_Done\`** (e.g. **`codex.md`**) — **full-file overwrite**, not append; no report inside project folders unless asked.
 - **Cursor:** primary **IDE-visible** executor for repositories and files; typical editing and memory maintenance workflows.
 - **Claude Code:** deep programming executor when heavy implementation passes are needed.
 - **Control Center (ControlCenter):** local Python GUI dashboard under `D:\MyPrograming\ControlCenter` — lists projects under `D:\MyPrograming`, Git status (Treeview + cache), opens Folder/Cursor/VS Code/PowerShell, prefers audit `D:\MyPrograming\What_I_Have_Done\cursor.md` with fallback to `D:\MyPrograming\What_I_Have_Done.md`, stores notes in `data\project_notes.json`, uses `run.bat` / `run_debug.bat`.
@@ -54,6 +54,14 @@ For **long-running** local Python apps (bots, daemons) that should start at **Wi
 - **Removed on server (2026-05-21):** Supabase, MySQL, DB storage, save prompt — transcript sent as `.txt` only.
 - **Server uv:** not installed; **venv/pip** kept for service stability.
 - Full SSH/host details: private _KnowledgeWiki only.
+
+## Owner Windows workstation — local Ollama (2026-06-02)
+
+- **Verdict:** Suitable for local Ollama; RTX 4070 Ti + 32 GB RAM + i7-13700F; **Ollama 0.30.0** uses GPU (CUDA).
+- **Claude Code + Ollama tool-use (2026-06-02):** first **Write-tool** smoke test passed with custom **`qwen3.5-9b-64k`** (`num_ctx 65536` from `qwen3.5:9b`); default small context failed. **Cursor** remains primary for governed file edits until broader tool tests pass.
+- **Claude Code hangs / tool failures:** check **context size**, model, GPU backend, duplicate `ollama` processes — not “weak PC.”
+- **Client API:** prefer `http://127.0.0.1:11434` or `http://localhost:11434`; treat `0.0.0.0` as bind-only, not the preferred client URL.
+- **Full baseline (GPU repair, 64K tool success, diagnostics):** `_KnowledgeWiki/tools/owner-windows-ollama-claude-local-baseline.md`
 
 ## Safety boundary
 This file contains tool preferences only and intentionally excludes access credentials, system addresses, or operational secrets.

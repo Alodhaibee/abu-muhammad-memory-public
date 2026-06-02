@@ -1,6 +1,6 @@
 # Memory Maintenance Policy
 
-Last updated: 2026-06-01
+Last updated: 2026-06-02
 Status: Active
 
 ## Split model
@@ -62,6 +62,8 @@ Owner decision (2026-06-01): **ChatGPT memory stays lightweight.** Keep **only**
 | **1** | **External-first principle** | Operational rules, agent rules, project details, workflows, and durable decisions must **not** live mainly in ChatGPT memory. They belong in the **external memory repository** and/or durable **_KnowledgeWiki** references. |
 | **2** | **Public memory repo URL** | `https://github.com/Alodhaibee/abu-muhammad-memory-public` |
 | **3** | **Self-reminder / anti-bloat rule** | For rules, agents, Cursor, GitHub, KnowledgeWiki, projects, workflows, or memory topics: **start from** this public repo and **`00_MASTER_MEMORY_INDEX.md`**, not from long internal ChatGPT memory. If ChatGPT memory holds durable details beyond these three anchors, route them through Cursor/KnowledgeWiki/GitHub, **verify** external anchoring/publish, then **remove** redundant details from ChatGPT memory. |
+
+**Anchor count (Abu Saleh):** Target **3** active operational anchors; temporary **max 5** only when truly necessary — compact rule in **`AS_REF.md`**.
 
 **Durable operational details belong in external files — not ChatGPT memory.**
 
@@ -128,8 +130,9 @@ Export these to the correct external layer, then prune ChatGPT memory:
 - Legacy/non-default path remains:
   - `D:\MyPrograming\What_I_Have_Done.md` (placeholder only unless explicitly requested)
 - Audit/execution reporting is required for every Cursor action, including read-only checks and no-edit tasks.
-- If a prompt says "do not modify any file", operational exception is:
-  - do not modify any file except appending the required audit report to `D:\MyPrograming\What_I_Have_Done\cursor.md`.
+- **Write method:** **full-file overwrite only** for `cursor.md` (one clean snapshot per run). **Append is forbidden** unless the owner explicitly requests append or history behavior for that run.
+- If a prompt says **do not modify any file**, the operational exception is: do not modify any file **except** a **full-file overwrite** of the required audit report at `D:\MyPrograming\What_I_Have_Done\cursor.md` (per **`AGENTS_PROTOCOL.md`** and KnowledgeWiki **`agents/shared.md`**).
+- Full Cursor audit sections (token routing, **`## 🧠 Skills Summary — Owner Review`**, etc.): KnowledgeWiki **`agents/cursor.md`** and **`agents/shared.md`**.
 
 ## ChatGPT memory pruning against external memory
 - When information is already captured in this public memory repository or another approved external memory layer, ChatGPT should not keep long duplicated details in its own memory.
@@ -155,6 +158,7 @@ Export these to the correct external layer, then prune ChatGPT memory:
 ## Prompt discipline rule
 - For Abu Muhammad's agent workflows, prompts should not repeat long safety/checklist blocks by default.
 - Normal prompts should be short and route agents through approved external entrypoint/rules.
+- **Do not re-teach** installed protocol in normal task prompts (Working on, audit, rollback, skills rules) unless the task creates/changes/tests protocol — see **`AS_REF.md`** and KnowledgeWiki **`agents/shared.md`** (Compact session prompts).
 - Sensitive prompts may add only relevant controls.
 - Full checklist prompts should be reserved for new operating rules, public memory updates, high-risk changes, first-time workflow establishment, or suspected drift/noncompliance.
 

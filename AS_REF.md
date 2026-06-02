@@ -31,11 +31,14 @@ Prefer neutral labels such as owner, program owner, or authorized owner when a r
 
 ## ChatGPT internal memory limit (Abu Saleh — governance)
 
-**One rule:** ChatGPT **internal** memory stays minimal — **target 3** active operational anchors; **temporary max 5** only when truly necessary. Internal memory is **not** an archive. Operational, project, and protocol detail belongs in **external** memory (public repo, KnowledgeWiki, **`AS_REF.md`**, and other approved external references). Any **new durable** operational detail requires **owner approval** before external recording. Temporary or completed reminders **expire or are removed**. **Recovery anchors (do not remove):** public memory repo `https://github.com/Alodhaibee/abu-muhammad-memory-public` and **`AS_REF.md`** — see **Reference retention** protected keys below.
+**One rule:** ChatGPT **internal** memory stays minimal — **target 3** active operational anchors; **temporary max 5** only when truly necessary. Internal memory is **not** an archive. Operational, project, and protocol detail belongs in **external** memory (public repo, KnowledgeWiki, **`AS_REF.md`**, and other approved external references). Any **new durable** operational detail requires **owner approval** before external recording. Temporary or completed reminders **expire or are removed**. **Recovery anchors (do not remove):** see **Reference retention** below.
 
 ## Reference retention
 
-**Protected keys:** Do not remove the public repository URL or this file from lightweight local notes. They are the return keys to external memory.
+**Protected keys (recovery anchors):** Do not remove from lightweight ChatGPT notes:
+
+- Public memory repo: `https://github.com/Alodhaibee/abu-muhammad-memory-public`
+- This file: **`AS_REF.md`** (short ChatGPT-facing recovery reference)
 
 When local notes grow beyond the basic anchors, review each additional item first:
 

@@ -13,7 +13,7 @@
 - Keep final outputs easy to review.
 
 ## External memory model (public-safe)
-- ChatGPT / Abu Saleh memory keeps **only three lightweight anchors** — see **`06_MEMORY_MAINTENANCE_POLICY.md`** (**three lightweight memory anchors**).
+- ChatGPT / Abu Saleh memory: **three lightweight anchors** in **`06_MEMORY_MAINTENANCE_POLICY.md`**; **target 3 / max 5** limit and compact pointers in **`AS_REF.md`**.
 - ChatGPT reads this repository as safe index context; Cursor maintains private/full memory locally.
 - If details are sensitive or uncertain, keep them private and do not publish them here.
 
@@ -169,7 +169,7 @@ Official audit layout (workspace-level, **outside** this public repo unless Abu 
 - **Session finality:** Do not claim **PASS** / session closed while unresolved items remain — use **PARTIAL** / **NEEDS_REVIEW** / **BLOCKED** (see **06_MEMORY_MAINTENANCE_POLICY.md**).
 - **Owner-facing Arabic:** Abu Saleh editorial review for catalog wording; agents apply approved Arabic — do not invent literal owner-facing Arabic.
 - **project-manifest** had a practical **dry test** on a private voice-kit project — **PASS** locally; do **not** publish full manifests or long audit bodies here.
-- **Cursor audit hygiene:** long accumulated `cursor.md` content may be copied to **`What_I_Have_Done/archive/`** (dated archive); active **`cursor.md`** remains append per run unless owner requests overwrite.
+- **Cursor audit hygiene:** optional dated copies of prior audits may go to **`What_I_Have_Done/archive/`**; active **`cursor.md`** uses **full-file overwrite each run** (append forbidden) per **`AGENTS_PROTOCOL.md`** and workspace rules above.
 
 ### Skill Bank governance — avoid duplicate skills and rules (public-safe, 2026-05-29)
 

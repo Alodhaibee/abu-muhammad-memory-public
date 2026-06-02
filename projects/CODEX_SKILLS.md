@@ -30,7 +30,7 @@ This **public memory repo** describes CodexSkills **safely**; it does **not** ho
 3. **No `git commit` / `git push`** unless **explicitly instructed**.
 4. **No network access** unless **explicitly instructed**.
 5. **No package installs** unless **explicitly instructed**.
-6. After each execution batch, write the audit report at **`D:\MyPrograming\What_I_Have_Done.md`** — **overwrite** (latest run only), **not append**.
+6. After each execution batch, write the audit report at **`D:\MyPrograming\What_I_Have_Done\codex.md`** — **full-file overwrite** (latest run only), **not append**.
 7. Do **not** place that report inside individual project folders unless explicitly requested.
 8. Obtain **explicit user approval** before naming any **new** durable folder / project / tool / skill / important file / artifact.
 9. Do **not** use **`AbuMuhammad`** as a **default prefix** for neutral names; prefer neutral labels such as **CodexSkills**, **Codex Workflow**, **Project Control Center**.

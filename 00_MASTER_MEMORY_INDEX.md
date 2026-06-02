@@ -1,6 +1,6 @@
 # MASTER MEMORY INDEX (PUBLIC SAFE)
 
-Last updated: 2026-06-01
+Last updated: 2026-06-02
 Status: Active
 
 ## Agents Protocol (mandatory — all agents/tools)
@@ -25,9 +25,9 @@ Then read this index file (`00_MASTER_MEMORY_INDEX.md`).
 9. Keep responses Arabic-first unless the task requires English.
 10. Respect the program owner's style: practical, phased, documented, low confusion.
 
-## ChatGPT / Abu Saleh memory (three anchors only)
+## ChatGPT / Abu Saleh memory (three anchors + limit)
 
-Full policy: **`06_MEMORY_MAINTENANCE_POLICY.md`** — **three lightweight memory anchors**.
+**Canonical:** **`06_MEMORY_MAINTENANCE_POLICY.md`** (three lightweight anchors) · **`AS_REF.md`** (target **3** / max **5** limit, externalized pointers, legacy topic router).
 
 Keep ChatGPT memory limited to:
 
