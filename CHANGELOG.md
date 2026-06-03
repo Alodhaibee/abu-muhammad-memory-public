@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-05-30
+Last updated: 2026-06-03
 Status: Active
+
+## 2026-06-03
+- **Primary Cursor startup rule (public-safe):** Session **`RECORD_PRIMARY_CURSOR_START_RULE_IN_PUBLIC_MEMORY_2026-06-03`**. Recorded **Start Here First — Cursor Working On + Prompt Guard + Skills Review** as the **primary canonical** Cursor startup/execution rule: Working on table first, mandatory startup file order, `AGENTS_START_HERE` as router only, `prompt-style-drift-guard` before scoped work, central audit `D:\MyPrograming\What_I_Have_Done\cursor.md`, final **Skills Summary — Owner Review**; no bypass; no duplicate standalone rules — merge future changes into this rule. Added **`docs/2026-06-03_primary_cursor_start_rule.md`**; updated **`06_MEMORY_MAINTENANCE_POLICY.md`**, **`AS_REF.md`**, **`00_MASTER_MEMORY_INDEX.md`**, **`03_TOOLS_AND_ENVIRONMENT.md`**. **Local only** until owner authorizes commit/push.
 
 ## 2026-05-30
 - **Telegram Mailman — safety hardening pause (public-safe):** Session **`SESSION_TELEGRAM_MAILMAN_STOP_RECORD_AND_GITHUB_UPDATE_2026-05-30`**. Recorded completion of safety hardening implementation (**`PASS_SAFETY_HARDENING_IMPLEMENTED`**) from prior session **`SESSION_TELEGRAM_MAILMAN_SAFETY_HARDENING_IMPLEMENT_2026-05-30`**: offline **preflight** checks, persistent **send ledger** for duplicate-send prevention, offline tests (**26/26** pass), documentation sync. **Live sending paused** — no future live send until read-only hardening review **`SESSION_TELEGRAM_MAILMAN_HARDENING_REVIEW_2026-05-30`** passes. **No** secrets, tokens, or chat IDs in this update. Added **`projects/TELEGRAM_MAILMAN.md`**; updated **`04_ACTIVE_PROJECTS.md`**, **`00_MASTER_MEMORY_INDEX.md`**.

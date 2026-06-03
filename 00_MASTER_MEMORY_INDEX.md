@@ -1,6 +1,6 @@
 # MASTER MEMORY INDEX (PUBLIC SAFE)
 
-Last updated: 2026-06-02
+Last updated: 2026-06-03
 Status: Active
 
 ## Agents Protocol (mandatory — all agents/tools)
@@ -43,6 +43,7 @@ Keep ChatGPT memory limited to:
 - Active project map: `04_ACTIVE_PROJECTS.md`
 - Security boundaries: `05_SECURITY_AND_PRIVACY_RULES.md`
 - Memory process policy: `06_MEMORY_MAINTENANCE_POLICY.md`
+- Primary Cursor startup rule (2026-06-03): `docs/2026-06-03_primary_cursor_start_rule.md`
 - Short reference notes: `AS_REF.md`
 
 ## Project routing

@@ -13,6 +13,7 @@ Use these public files by purpose:
 | Durable operating rules | `AGENTS_PROTOCOL.md`, `01_GLOBAL_RULES.md` |
 | Active projects | `04_ACTIVE_PROJECTS.md` and relevant `projects/*.md` |
 | MyDoctor maintenance (2026-06-01, public pointer) | `docs/2026-06-01_mydoctor_maintenance_public_pointer.md` |
+| Primary Cursor startup rule (2026-06-03) | `docs/2026-06-03_primary_cursor_start_rule.md` |
 | Owner Windows Ollama + Claude Code baseline (pointer) | `03_TOOLS_AND_ENVIRONMENT.md` → `_KnowledgeWiki/tools/owner-windows-ollama-claude-local-baseline.md` (includes 2026-06-02 GPU repair + **`qwen3.5-9b-64k` Write-tool success**) |
 
 ## Notes discipline

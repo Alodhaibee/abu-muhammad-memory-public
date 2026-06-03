@@ -124,6 +124,13 @@ Export these to the correct external layer, then prune ChatGPT memory:
 - When a current external entrypoint/rule exists, do not rely on long detailed ChatGPT memory copies.
 - Agents should start from the current external entrypoint/rules for routing and execution context.
 
+## Primary Cursor startup rule (public-safe — 2026-06-03)
+
+- **Canonical rule name:** **Start Here First — Cursor Working On + Prompt Guard + Skills Review**
+- **Status:** Primary and top-priority startup/execution rule for Cursor (see **`docs/2026-06-03_primary_cursor_start_rule.md`**).
+- **Controls:** first visible **`## Working on:`** table; mandatory startup file order (`AGENTS_PROTOCOL.md` → `shared.md` → `cursor.md`); **`AGENTS_START_HERE.md`** as router only after those files; **`prompt-style-drift-guard`** before scoped work; central audit **`D:\MyPrograming\What_I_Have_Done\cursor.md`** (full-file overwrite); final **`## 🧠 Skills Summary — Owner Review`** in chat after audit.
+- **Governance:** do not bypass; do not add duplicate standalone rules for the same behavior — merge future changes into this rule and aligned local wiki files.
+
 ## Cursor audit continuity rule (public-safe summary)
 - Cursor canonical audit path remains:
   - `D:\MyPrograming\What_I_Have_Done\cursor.md`
