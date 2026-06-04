@@ -44,6 +44,7 @@ Keep ChatGPT memory limited to:
 - Security boundaries: `05_SECURITY_AND_PRIVACY_RULES.md`
 - Memory process policy: `06_MEMORY_MAINTENANCE_POLICY.md`
 - Primary Cursor startup rule (2026-06-03): `docs/2026-06-03_primary_cursor_start_rule.md`
+- Prompt Agent closure (2026-06-04, CLOSED MVP): `docs/2026-06-04_prompt_agent_closure_public.md`
 - Short reference notes: `AS_REF.md`
 
 ## Project routing

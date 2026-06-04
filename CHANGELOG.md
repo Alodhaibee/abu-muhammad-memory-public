@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-06-03
+Last updated: 2026-06-04
 Status: Active
+
+## 2026-06-04
+- **Prompt Agent — CLOSED MVP (public-safe):** Session **`CLOSE_PROMPT_AGENT_AND_UPDATE_MEMORY_2026-06-04`**. Owner closed Prompt Agent topic. Recorded: AOS Prompt Architect MVP complete; **explicit-invocation-only** activation (not always-on); user-global Cursor skills **`/prompt-architect`** (launcher) and **`/prompt-polish`** (polish-only, ready-to-run to Downloads); local KnowledgeWiki benefit queue + approval format **`999 Just for: #,#,#`** as **local-only** pointers. Added **`docs/2026-06-04_prompt_agent_closure_public.md`**; updated **`03_TOOLS_AND_ENVIRONMENT.md`**, **`00_MASTER_MEMORY_INDEX.md`**, **`projects/SECOND_BRAIN.md`**.
 
 ## 2026-06-03
 - **Primary Cursor startup rule (public-safe):** Session **`RECORD_PRIMARY_CURSOR_START_RULE_IN_PUBLIC_MEMORY_2026-06-03`**. Recorded **Start Here First — Cursor Working On + Prompt Guard + Skills Review** as the **primary canonical** Cursor startup/execution rule: Working on table first, mandatory startup file order, `AGENTS_START_HERE` as router only, `prompt-style-drift-guard` before scoped work, central audit `D:\MyPrograming\What_I_Have_Done\cursor.md`, final **Skills Summary — Owner Review**; no bypass; no duplicate standalone rules — merge future changes into this rule. Added **`docs/2026-06-03_primary_cursor_start_rule.md`**; updated **`06_MEMORY_MAINTENANCE_POLICY.md`**, **`AS_REF.md`**, **`00_MASTER_MEMORY_INDEX.md`**, **`03_TOOLS_AND_ENVIRONMENT.md`**. **Local only** until owner authorizes commit/push.
