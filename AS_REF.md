@@ -76,7 +76,7 @@ Use this block so ChatGPT **internal** memory stays minimal. **Do not** duplicat
 | Pine Script / TradingView | `projects/TRADING_AND_PINE.md` |
 | YouTube transcript tool | `projects/YOUTUBE_TEXT_EXTRACTOR.md` |
 | Telegram messaging / bots | `projects/TELEGRAM_MAILMAN.md`, `projects/LABIB.md` |
-| `/to_see_html` visual verification (see-to-believe-lab) | `04_ACTIVE_PROJECTS.md`; _KnowledgeWiki `tools/see-to-believe-lab-to-see-html.md` |
+| `/to_see_html` visual verification (see-to-believe-lab; single-page + split-view; closeout `TO_SEE_HTML_CLOSEOUT_COMPLETE`) | `04_ACTIVE_PROJECTS.md`; `03_TOOLS_AND_ENVIRONMENT.md`; _KnowledgeWiki `tools/see-to-believe-lab-to-see-html.md` |
 | Home Assistant / Alexa automation | `projects/SMART_HOME_IOT.md` |
 
 ## Consolidated table (when requested)
