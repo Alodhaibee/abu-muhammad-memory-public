@@ -79,6 +79,38 @@ Use this block so ChatGPT **internal** memory stays minimal. **Do not** duplicat
 | `/to_see_html` visual verification (see-to-believe-lab; single-page + split-view; closeout `TO_SEE_HTML_CLOSEOUT_COMPLETE`) | `04_ACTIVE_PROJECTS.md`; `03_TOOLS_AND_ENVIRONMENT.md`; _KnowledgeWiki `tools/see-to-believe-lab-to-see-html.md` |
 | Home Assistant / Alexa automation | `projects/SMART_HOME_IOT.md` |
 
+## Abu Saleh — internal anchors only (2026-06-08)
+
+**Rule:** ChatGPT internal memory holds **short recovery anchors** — not archives. After external confirmation, **remove** long duplicates.
+
+| Keep internally (one line each) | External source of truth |
+|---|---|
+| External memory / KnowledgeWiki / GitHub are SoT | This file + `00_MASTER_MEMORY_INDEX.md` + `_KnowledgeWiki` |
+| Public memory repo URL | `https://github.com/Alodhaibee/abu-muhammad-memory-public` |
+| **AS_REF** recovery key | This file |
+| Owner: plain **Arabic**, owner-readable; technical terms explained simply | `06_MEMORY_MAINTENANCE_POLICY.md` |
+| Shortcut: **`/مزامنة`** = KnowledgeWiki GitHub sync (governance + safety check first) | `_KnowledgeWiki`; audit `What_I_Have_Done/cursor.md` |
+| **WiseMan** principle: classify before record; **recording is last** | `_KnowledgeWiki/governance/WiseMan.md` |
+| **Two-page** docs: `Name.md` + `Name.ar.md` for major wiki pages | `_KnowledgeWiki/standards/project-documentation-standard.md` section 2.2 |
+| Order: **correction → dedup → placement → record** | WiseMan + `wise-governance-review` skill |
+| **No extra payment**; prefer **local Ollama** for heavy analysis | `_KnowledgeWiki/tools/owner-windows-ollama-claude-local-baseline.md` |
+
+## ChatGPT internal memory — governance pointers (2026-06-08)
+
+**Safe to forget from internal memory** after confirming these external links exist. **Do not** duplicate prose.
+
+| Area | External source (durable) |
+|------|---------------------------|
+| WiseMan governance role + trials | `_KnowledgeWiki/governance/WiseMan.md` + `.ar.md` |
+| WiseMan operational checklist | `_KnowledgeWiki/skills/wise-governance-review.md` |
+| Change & Evaluation History standard | `_KnowledgeWiki/standards/project-documentation-standard.md` section 2.3 |
+| HomeTalk documentation (B1–B7, cleanup) | `_KnowledgeWiki/projects/hometalk.md`; guides `PROJECT_DOCUMENTATION_TAXONOMY_PATTERN`, `HOMETALK_DOCUMENTATION_METHOD` |
+| KnowledgeWiki private repo | `https://github.com/Alodhaibee/KnowledgeWiki-private` |
+| Cursor cloud vs local Ollama split | Audit marker `LOCAL_OLLAMA_CURSOR_USAGE_CHECK_COMPLETE` in `What_I_Have_Done/cursor.md` |
+| Day closeout / open-items reduction | Audit markers `WISEMAN_DAY_CLOSEOUT_RECORDED`, `OPEN_ITEMS_REDUCED_AFTER_WISEMAN_CLOSEOUT` |
+
+**Prune from ChatGPT memory (safe after external check):** trial scores (7.2/8.2), per-file sync lists, commit hashes, subAgent promotion debate (closed), HomeTalk benefit prose, Nodeme UI pause details, design-skill catalog entries not yet in Skill Bank README.
+
 ## Consolidated table (when requested)
 
 When a consolidated memory table is requested:

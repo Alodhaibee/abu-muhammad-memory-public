@@ -1,6 +1,6 @@
 # Memory Maintenance Policy
 
-Last updated: 2026-06-02
+Last updated: 2026-06-08
 Status: Active
 
 ## Split model
@@ -95,6 +95,10 @@ Export these to the correct external layer, then prune ChatGPT memory:
 - Project ideas that belong in KnowledgeWiki registers or `projects/*.md`
 - Duplicate copies of rules already in this repo or _KnowledgeWiki
 - Secrets, tokens, credentials, client data, or strategic private ideas
+- **WiseMan / documentation governance session detail (2026-06-08)** — trials, closeout tables, open-items lists → `_KnowledgeWiki/governance/WiseMan.md`, `skills/wise-governance-review.md`, `standards/project-documentation-standard.md`; prune after `KnowledgeWiki-private` sync verified
+- **HomeTalk benefit tables and cleanup prose (B1–B7)** → `_KnowledgeWiki/projects/hometalk.md` and linked guides
+- **KnowledgeWiki sync commit hashes and staged-file inventories** → git history + `What_I_Have_Done/cursor.md` audit only
+- **Cursor cloud vs Ollama capability matrices** → audit marker `LOCAL_OLLAMA_CURSOR_USAGE_CHECK_COMPLETE`; baseline in `_KnowledgeWiki/tools/owner-windows-ollama-claude-local-baseline.md`
 
 ## ChatGPT lightweight memory index policy
 
