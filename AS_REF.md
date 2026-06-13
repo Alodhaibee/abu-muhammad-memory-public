@@ -77,6 +77,7 @@ Use this block so ChatGPT **internal** memory stays minimal. **Do not** duplicat
 | YouTube transcript tool | `projects/YOUTUBE_TEXT_EXTRACTOR.md` |
 | Telegram messaging / bots | `projects/TELEGRAM_MAILMAN.md`, `projects/LABIB.md` |
 | `/to_see_html` visual verification (see-to-believe-lab; single-page + split-view; closeout `TO_SEE_HTML_CLOSEOUT_COMPLETE`) | `04_ACTIVE_PROJECTS.md`; `03_TOOLS_AND_ENVIRONMENT.md`; _KnowledgeWiki `tools/see-to-believe-lab-to-see-html.md` |
+| **AOS Project Command Center (V4 operational)** | _KnowledgeWiki `projects/aos-project-command-center/AOS_PCC_STATUS_TRUTH_CLOSEOUT_2026-06-13.md`; tool `D:\MyPrograming\tools\aos-project-command-center\run.bat`; PROJECT_STATUS SoT; audit `What_I_Have_Done/cursor.md` |
 | Home Assistant / Alexa automation | `projects/SMART_HOME_IOT.md` |
 
 ## Abu Saleh — internal anchors only (2026-06-08)
