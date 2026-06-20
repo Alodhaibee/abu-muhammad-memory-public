@@ -60,6 +60,7 @@ Every execution report must include:
 ### ChatGPT
 
 - Lightweight reasoning assistant and memory index.
+- **Custom GPTs** should start from **`00_MASTER_MEMORY_INDEX.md`** and follow **`07_GPT_AND_ASSISTANT_SETUP.md`** — public-safe Knowledge baseline only; not the full private operational source.
 - **ChatGPT memory (Abu Saleh):** target **3** operational anchors (temporary **max 5**) — see **`AS_REF.md`** (compact limit + pointers) and **`06_MEMORY_MAINTENANCE_POLICY.md`** (three anchors: external-first, public repo URL `https://github.com/Alodhaibee/abu-muhammad-memory-public`, anti-bloat self-reminder).
 - Helps the program owner decide next steps.
 - Prepares **scoped** prompts for Cursor, Codex Desktop, Claude, Antigravity, and other tools.

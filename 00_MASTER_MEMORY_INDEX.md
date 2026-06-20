@@ -1,7 +1,61 @@
 # MASTER MEMORY INDEX (PUBLIC SAFE)
 
-Last updated: 2026-06-03
+Last updated: 2026-06-21
 Status: Active
+
+## What this repository is
+
+This repository is **public-safe summarized memory** for Abu Muhammad’s AOS, projects, workflows, and assistant coordination.
+
+- **Start here first** for any AOS / memory / workflow / Canon / GPT task.
+- Read **only the file relevant to the current task** after this index.
+- This repo is **not** the full private operational source.
+- Detailed execution context, secrets, credentials, and sensitive operational information remain in the local **_KnowledgeWiki** (private) or private workspace — never published here.
+
+**Repository URL:** `https://github.com/Alodhaibee/abu-muhammad-memory-public`
+
+## GPT / Assistant Startup Rule
+
+When a **GPT**, **Custom GPT**, or other assistant is helping with Abu Muhammad’s AOS, memory system, projects, rules, workflows, agents, or knowledge structure:
+
+1. **Start from this repository** (or its uploaded Knowledge files derived from it).
+2. Read **`00_MASTER_MEMORY_INDEX.md` first**.
+3. Then read **only the file relevant to the current task**.
+4. Treat this repository as **public-safe summarized memory**, not the full operational source.
+5. If detailed execution context, secrets, credentials, private paths, or sensitive operational information are needed, ask Abu Muhammad for a **safe summary** or **private excerpt** — do not request or store secret values here.
+
+**Custom GPT setup:** see **`07_GPT_AND_ASSISTANT_SETUP.md`**.
+
+## Core AOS Concepts (public-safe summary)
+
+| Concept | Role |
+|---------|------|
+| **Canon** | Official source of truth and authority layer (paths, precedence, governance). Local Canon lives in private **_KnowledgeWiki**; this public repo holds **public-safe summaries** only. |
+| **KnowledgeWiki** | Organized long-term memory body (private operational brain). Not mirrored in full here. |
+| **START_HERE** | First entry point for **agents, assistants, and workflows** in the private operating room (`agents/START_HERE.md` in **_KnowledgeWiki**). Public assistants start from **this index** instead. |
+| **Reports** | Evidence of what was done, decisions made, issues found, and next actions (per-agent audit files under `What_I_Have_Done/` — local, not published here by default). |
+| **GitHub public memory** | Stable **external public-safe** layer for GPTs and cross-agent coordination — **this repository**. |
+
+**Design principles (public-safe):**
+
+- Keep **Canon thin** — policy and routing, not duplicated agent protocol text.
+- **Avoid duplicating rules** across many files; improve the canonical file instead.
+- Always distinguish: **official source of truth** · **working notes** · **reports** · **drafts** · **archives**.
+
+## Source Priority
+
+If sources conflict, follow this order:
+
+1. **User’s current instruction** (scope and one-run authorization for the active task)
+2. **Uploaded GPT Knowledge / Canon files** (when attached to the GPT or session)
+3. **This public GitHub memory repository**
+4. **Notion pages**, if connected and available
+5. **Current conversation context**
+
+**Notes:**
+
+- ChatGPT / model **internal memory alone** is not a durable source of truth — verify against external memory above.
+- For full AOS operating precedence (Canon, KnowledgeWiki registries, agent protocol), private **_KnowledgeWiki** Canon applies locally; public assistants use this list unless the owner overrides for that run.
 
 ## Agents Protocol (mandatory — all agents/tools)
 
@@ -36,6 +90,7 @@ Keep ChatGPT memory limited to:
 3. **Anti-bloat self-reminder** — start from this repo and this index; export excess durable detail via Cursor/KnowledgeWiki/GitHub, verify, then prune ChatGPT memory.
 
 ## Routing by task type
+- GPT / Custom GPT setup and instructions: `07_GPT_AND_ASSISTANT_SETUP.md`
 - Central agents protocol (all tools): `AGENTS_PROTOCOL.md`
 - General execution rules: `01_GLOBAL_RULES.md`
 - Tone and language style: `02_STYLE_AND_RESPONSE_RULES.md`

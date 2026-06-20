@@ -1,7 +1,10 @@
 # CHANGELOG
 
-Last updated: 2026-06-04
+Last updated: 2026-06-21
 Status: Active
+
+## 2026-06-21
+- **GPT / public memory sync (public-safe):** Task **`AOS-PUBLIC-MEMORY-SYNC-001`**. Updated **`00_MASTER_MEMORY_INDEX.md`** with public-safe memory framing, **GPT / Assistant Startup Rule**, **Core AOS Concepts**, and **Source Priority**. Added **`07_GPT_AND_ASSISTANT_SETUP.md`** (Custom GPT knowledge-base entry, instructions baseline, AOS assistant behavior). Updated **`README.md`**, **`AI_OPERATING_MODEL.md`**, **`AGENTS_PROTOCOL.md`** (Custom GPT pointer). **Local only** until owner authorizes commit/push.
 
 ## 2026-06-04
 - **Prompt Agent — CLOSED MVP (public-safe):** Session **`CLOSE_PROMPT_AGENT_AND_UPDATE_MEMORY_2026-06-04`**. Owner closed Prompt Agent topic. Recorded: AOS Prompt Architect MVP complete; **explicit-invocation-only** activation (not always-on); user-global Cursor skills **`/prompt-architect`** (launcher) and **`/prompt-polish`** (polish-only, ready-to-run to Downloads); local KnowledgeWiki benefit queue + approval format **`999 Just for: #,#,#`** as **local-only** pointers. Added **`docs/2026-06-04_prompt_agent_closure_public.md`**; updated **`03_TOOLS_AND_ENVIRONMENT.md`**, **`00_MASTER_MEMORY_INDEX.md`**, **`projects/SECOND_BRAIN.md`**.
